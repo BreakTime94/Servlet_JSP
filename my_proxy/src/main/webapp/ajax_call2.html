@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>뉴스기사 가져오기</button>
+    <ul>
+        
+    </ul>
+    <script>
+        const xhr = new XMLHttpRequest();
+
+        document.querySelector("button").addEventListener("click", e => {
+            
+            xhr.open("GET", "proxy");
+            
+            
+            xhr.onreadystatechange = () => {
+                // console.log(xhr.status);
+                // console.log(xhr.readyState);
+                if(xhr.status === 200 && xhr.readyState === 4){
+                    console.log(xhr.responseXML);
+                    const data = xhr.responseXML;
+                    // console.log(data.querySelectorAll("student")); node type으로 반환 유사 배열
+                    let str = "";
+                    data.querySelectorAll("item").forEach(s => {
+                        str += `<li> <a href="${s.querySelector('link').innerHTML}">
+                        ${s.querySelector("title").innerHTML.replace('<![CDATA[','').replace(']]>','')}
+                        </li>`
+                    });
+                    document.querySelector("ul").innerHTML += str;
+                }
+            }
+            xhr.send();
+
+
+
+             //response 값은 분명 존재하지만, 비동기 시스템에 의해서 
+            // 빈줄이 출력된다. 
+            //status : 200 OK 라는 뜻, 404 : NOT FOUND
+            // 100번대는 준비과정, 200번대는 성공, 300번대 400번대 500번대 
+        });
+    </script>
+</body>
+</html>
