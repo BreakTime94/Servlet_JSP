@@ -44,8 +44,5 @@ public class Login extends HttpServlet{
 		else {//로그인 실패
 			resp.sendRedirect("login?msg=fail");
 		}
-		
-		
 	}
-	
 }

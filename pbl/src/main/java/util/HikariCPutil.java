@@ -19,7 +19,7 @@ public class HikariCPutil {
 		config.setPassword("1234");
 //		config.setDriverClassName("org.mariadb.jdbc.Driver");
 		config.setDriverClassName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy");
-		config.setMaximumPoolSize(10); // 최대 5개
+		config.setMaximumPoolSize(10); // 최대 10개
 		config.setMinimumIdle(5); //초기대기상태 5개
 		config.setIdleTimeout(30000);
 		config.setConnectionTimeout(30000);
