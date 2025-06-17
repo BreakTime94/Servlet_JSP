@@ -7,4 +7,5 @@ import domain.Board;
 public interface BoardMapper {
 	List<Board> list();
 	Board selectOne(Long bno);
+	void insert(Board board);
 }

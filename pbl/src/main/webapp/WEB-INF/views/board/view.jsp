@@ -27,7 +27,7 @@
             <span class="float-end text-muted small me-3">${board.regdate}</span>
         </div>
     ${board.content}
-        <div class="p-0 py-5 ps-1 small border-bottom border-1 border-muted"><p>벌써 내일이 경기날이라니</p></div>
+        <div class="p-0 py-5 ps-1 small border-bottom border-1 border-muted"><p></p></div>
         <div>
             <a href="list" class="btn btn-secondary btn-sm"><i class="fa-solid fa-list-ul"></i> 목록</a>
             <div class="float-end">

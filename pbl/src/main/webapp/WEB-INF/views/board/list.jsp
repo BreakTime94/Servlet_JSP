@@ -13,7 +13,7 @@
 <div>
 <main>
 		<div class="clearfix py-0">
-            <a href="board_write.html" class="btn btn-primary btn-sm float-end"><i class="fa-solid fa-pen-fancy"></i>글쓰기</a>
+            <a href="write" class="btn btn-primary btn-sm float-end"><i class="fa-solid fa-pen-fancy"></i>글쓰기</a>
         </div>
         <div class="list-group">
             <div class="list-group-item small">
