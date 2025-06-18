@@ -5,6 +5,10 @@
 <mapper namespace="mapper.BoardMapper">
 	<select id="list" resultType="domain.Board">
 		select * from tbl_board
+		where cno = #{cno}
+		<!-- and title like concat('%', #{keyword}, '%') -->
+		order by bno desc 
+		limit #{amount} offset #{offset}
 	</select>
 	<select id="selectOne" resultType="board">
 		select * from tbl_board where bno = #{bno}
@@ -12,4 +16,8 @@
 	<insert id="insert">
 		insert into tbl_board (title, content, id, cno) values (#{title}, #{content}, #{id}, #{cno})
 	</insert>
+	<select id="getCount" resultType="long">
+		select count(*) from tbl_board where cno = #{cno};
+	</select>
+	
 </mapper>
