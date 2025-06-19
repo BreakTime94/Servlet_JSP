@@ -10,7 +10,7 @@
 <body>
 <%@ include file="../common/header.jsp" %>
 <%@ include file="../common/nav.jsp" %>
-<div>
+<div class="container p-0">
 <main>
 		<div class="clearfix py-0 row align-items-center">
 			<div class="col-2">
@@ -21,7 +21,7 @@
 				  <option>100개씩 보기</option>
 				</select>
 			</div>
-			<form class="col input-group">
+			<form class="col input-group search-form">
 				<select class="form-select form-select-sm" name="type">
 				  <option value="T">제목</option>
 				  <option value="C">내용</option>
@@ -37,22 +37,29 @@
 				 <input type="hidden" name="cno" value="${pageDto.cri.cno}">
 				 <button class="btn btn-success btn-sm" type="submit">Go</button>
 			</form>
+			<script>
+			$(".search-form").submit(function () {
+				event.preventDefault();
+				this.keyword.value = encodeURIComponent(this.keyword.value)
+				this.submit();
+			})
+			</script>
 			<div class="col-2">
-            	<a href="write" class="btn btn-primary btn-sm float-end"><i class="fa-solid fa-pen-fancy"></i>글쓰기</a>
+            	<a href="write?${pageDto.cri.qs2}" class="btn btn-primary btn-sm float-end"><i class="fa-solid fa-pen-fancy"></i>글쓰기</a>
             </div>
         </div>
         <div class="list-group">
             <div class="list-group-item small">
-                <div class="row text-center allign-items-center small text-muted">
+                <div class="row text-center align-items-center small text-muted">
                     <div class="col-1 small">글번호</div>
                     <div class="col-1 small">카테고리</div>
                     <div class="col text-start">제목</div>
-                    <div class="col-1 small"><span class="small">작성일</span></div>
-                    <div class="col-1 small"><span class="small">조회수</span></div>
-                </div>
+                    <div class="col-1 small">작성일</div>
+                    <div class="col-1 small">조회수</div>
+        	</div>
         </div>
         <a href="board_view.html" class="list-group-item list-group-item-action list-group-item-secondary">
-            <div class="row text-center allign-items-center small text-muted">
+            <div class="row text-center align-items-center small text-muted">
                 <div class="col-1 small">1</div>
                 <div class="col-1 small">자유</div>
                 <div class="col text-start fw-bold text-black">제목<span class="small text-danger">1</span></div>
@@ -65,8 +72,8 @@
             ${sessionScope.boards}<br>
             ${applicationScope.boards}<br> --%>
             <c:forEach items="${boards}" var="board">
-            <a href="view?bno=${board.bno}" class="list-group-item list-group-item-action ">
-                <div class="row text-center allign-items-center small text-muted">
+            <a href="view?bno=${board.bno}&${pageDto.cri.qs2}" class="list-group-item list-group-item-action ">
+                <div class="row text-center align-items-center small text-muted">
                     <div class="col-1 small">${board.bno}</div>
                     <div class="col-1 small">${board.cno}</div>
                     <div class="col text-start fw-bold text-black">${board.title}<span class="small text-danger">1</span></div>
@@ -81,20 +88,20 @@
         </div>
         <ul class="pagination text-center mx-auto justify-content-center">
           <c:if test="${pageDto.doubleLeft}">
-		  <li class="page-item"><a class="page-link" href="list?cno=${pageDto.cri.cno}&page=1&amount=${pageDto.cri.amount}"><i class="fa-solid fa-angles-left"></i></a></li>
+		  <li class="page-item"><a class="page-link" href="list?&page=1&${pageDto.cri.qs}"><i class="fa-solid fa-angles-left"></i></a></li>
 		  </c:if>
 		  <c:if test="${pageDto.left}">
-		  <li class="page-item"><a class="page-link" href="list?cno=${pageDto.cri.cno}&page=${pageDto.start -1}&amount=${pageDto.cri.amount}"><i class="fa-solid fa-angle-left"></i></a></li>
+		  <li class="page-item"><a class="page-link" href="list?page=${pageDto.start -1}&${pageDto.cri.qs}"><i class="fa-solid fa-angle-left"></i></a></li>
 		  </c:if>
 		  <c:forEach begin="${pageDto.start}" end="${pageDto.end}" var="i">
-		  <li class="page-item ${pageDto.cri.page  == i ? 'active' : ''}"><a class="page-link" href="list?cno=${pageDto.cri.cno}&page=${i}&amount=${pageDto.cri.amount}">${i}</a></li>
+		  <li class="page-item ${pageDto.cri.page  == i ? 'active' : ''}"><a class="page-link" href="list?page=${i}&${pageDto.cri.qs}">${i}</a></li>
 		  </c:forEach>
 		  
 		  <c:if test="${pageDto.right}">
-		  <li class="page-item"><a class="page-link" href="list?cno=${pageDto.cri.cno}&page=${pageDto.end + 1}&amount=${pageDto.cri.amount}"><i class="fa-solid fa-angle-right"></i></a></li>
+		  <li class="page-item"><a class="page-link" href="list?&page=${pageDto.end + 1}&${pageDto.cri.qs}"><i class="fa-solid fa-angle-right"></i></a></li>
 		  </c:if>
 		  <c:if test="${pageDto.doubleRight}">
-		  <li class="page-item"><a class="page-link" href="list?cno=${pageDto.cri.cno}&page=${pageDto.realEnd}&amount=${pageDto.cri.amount}"><i class="fa-solid fa-angles-right"></i></a></li>
+		  <li class="page-item"><a class="page-link" href="list?&page=${pageDto.realEnd}&${pageDto.cri.qs}"><i class="fa-solid fa-angles-right"></i></a></li>
 		  </c:if>
 		</ul>
 </main>

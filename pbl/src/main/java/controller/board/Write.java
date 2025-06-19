@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import domain.Board;
+import domain.dto.Criteria;
 import lombok.extern.slf4j.Slf4j;
 import service.BoardService;
 import util.AlertUtil;
@@ -24,9 +25,10 @@ public class Write extends HttpServlet{
 		// session 내의 member attr 조회후 null일 경우 
 //		Object o = req.getSession().getAttribute("member");
 //		log.info("{}", o);
+		Criteria cri = Criteria.init(req);
 		if( req.getSession().getAttribute("member") == null) {
 //			AlertUtil.alert("로그인 후 글을 작성해주세요",String.format("%s%s%s", req.getContextPath(), "/member/login?url=", URLEncoder.encode(req.getRequestURL().toString(), "utf-8")) , req, resp);
-			AlertUtil.alert("로그인 후 작성하여주세요", "/member/login", req, resp, true);
+			AlertUtil.alert("로그인 후 작성하여주세요", "/member/login?" + cri.getQs2(), req, resp, true);
 //			resp.setContentType("text/html; charset=utf-8");
 //			PrintWriter pw = resp.getWriter();
 //			pw.print("<script>");
@@ -36,17 +38,16 @@ public class Write extends HttpServlet{
 //			pw.print("</script>");
 			return;
 		}
-		
+		req.setAttribute("cri", cri);
 		req.getRequestDispatcher("/WEB-INF/views/board/write.jsp").forward(req, resp);
 	}
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//session 체크
-		if(req.getSession().getAttribute("member") == null) {
-//			AlertUtil.alert("로그인 후 글을 작성해주세요",String.format("%s%s%s", req.getContextPath(), "/member/login?url=", URLEncoder.encode(req.getRequestURL().toString(), "utf-8")) , req, resp);
-			AlertUtil.alert("로그인 후 작성하여주세요", "/member/login", req, resp, true);
-			return;
+		Criteria cri = Criteria.init(req);
+		if( req.getSession().getAttribute("member") == null) {
+			AlertUtil.alert("로그인 후 작성하여주세요", "/member/login?" + cri.getQs2(), req, resp, true);
 		}
 		//파라미터 수집
 		String title = req.getParameter("title");
@@ -63,7 +64,7 @@ public class Write extends HttpServlet{
 		boardService.write(board);
 		
 		//리디렉션(board/list)
-		AlertUtil.alert("글이 성공적으로 등록되었습니다.", "/board/list?cno=2", req, resp);
+		AlertUtil.alert("글이 성공적으로 등록되었습니다.", "/board/list?cno=" + cri.getQs() + "&amount=" + cri.getAmount(), req, resp);
 	}
 	
 }

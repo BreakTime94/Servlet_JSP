@@ -1,1142 +1,212 @@
-10:05:22.912 [main] INFO  Criteria - domain.dto.Criteria@1e802ef9
-10:05:22.921 [main] INFO  Criteria - 0
-10:06:21.158 [main] INFO  Criteria - domain.dto.Criteria@1e802ef9
-10:06:21.160 [main] INFO  Criteria - 0
-10:07:35.497 [main] INFO  Criteria - domain.dto.Criteria@1e802ef9
-10:07:35.501 [main] INFO  Criteria - 40
-10:20:22.909 [main] INFO  Criteria - domain.dto.Criteria@1e802ef9
-10:20:22.912 [main] INFO  Criteria - domain.dto.Criteria@1e802ef9
-10:20:32.548 [main] INFO  Criteria - domain.dto.Criteria@1e802ef9
-10:20:32.551 [main] INFO  Criteria - 10
-10:39:03.305 [main] INFO  sqltiming - select * from tbl_board order by bno desc limit 10 offset 0
- {executed in 9 msec}
-10:39:03.333 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-10:39:03.349 [main] INFO  BoardService - Board(bno=116, title=새똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)
-10:39:03.358 [main] INFO  BoardService - Board(bno=115, title=제목, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)
-10:39:03.358 [main] INFO  BoardService - Board(bno=114, title=개똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)
-10:39:03.358 [main] INFO  BoardService - Board(bno=113, title=오늘의 메뉴, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)
-10:39:03.358 [main] INFO  BoardService - Board(bno=112, title=새똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)
-10:39:03.358 [main] INFO  BoardService - Board(bno=111, title=글작성, content=<p>서울숲클라이밍짐 구로점</p>
-, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)
-10:39:03.359 [main] INFO  BoardService - Board(bno=110, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
-, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)
-10:39:03.359 [main] INFO  BoardService - Board(bno=109, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
-, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)
-10:39:03.359 [main] INFO  BoardService - Board(bno=108, title=글작성, content=<p>서울숲클라이밍짐 구로점</p>
-, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)
-10:39:03.359 [main] INFO  BoardService - Board(bno=107, title=새똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)
-10:39:54.989 [main] INFO  sqltiming - select * from tbl_board order by bno desc limit 10 offset 0
+10:49:45.053 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 21 msec}
+10:49:53.190 [main] INFO  sqltiming - select * from tbl_board where bno = 1
  {executed in 7 msec}
-10:39:55.017 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
+10:51:25.149 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 8 msec}
+10:51:57.768 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 8 msec}
+10:51:57.796 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+10:54:52.231 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2 
 
-10:39:55.031 [main] INFO  BoardService - 새똥이가 쓴글
-10:39:55.033 [main] INFO  BoardService - 제목
-10:39:55.033 [main] INFO  BoardService - 개똥이가 쓴글
-10:39:55.033 [main] INFO  BoardService - 오늘의 메뉴
-10:39:55.033 [main] INFO  BoardService - 새똥이가 쓴글
-10:39:55.033 [main] INFO  BoardService - 글작성
-10:39:55.033 [main] INFO  BoardService - 오마에와 모우신데이루
-10:39:55.033 [main] INFO  BoardService - 오마에와 모우신데이루
-10:39:55.034 [main] INFO  BoardService - 글작성
-10:39:55.034 [main] INFO  BoardService - 새똥이가 쓴글
-10:40:46.528 [main] INFO  sqltiming - select * from tbl_board order by bno desc limit 50 offset 100
- {executed in 10 msec}
-10:40:46.559 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|12  |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:22 |2025-06-18 09:51:22 |0   |2   |
-|11  |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:22 |2025-06-18 09:51:22 |0   |2   |
-|10  |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:22 |2025-06-18 09:51:22 |0   |2   |
-|9   |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:22 |2025-06-18 09:51:22 |0   |2   |
-|8   |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:22 |2025-06-18 09:51:22 |0   |2   |
-|7   |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:45:21 |2025-06-18 09:45:21 |0   |2   |
-|6   |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-17 16:46:35 |2025-06-17 16:46:35 |0   |2   |
-|5   |새똥이가 쓴글     |내용                    |sae |2025-06-12 17:36:36 |2025-06-12 17:36:36 |0   |2   |
-|4   |오늘의 메뉴      |내용                    |sae |2025-06-12 17:36:35 |2025-06-12 17:36:35 |0   |2   |
-|3   |개똥이가 쓴글     |내용                    |sae |2025-06-12 17:36:34 |2025-06-12 17:36:34 |0   |2   |
-|2   |제목          |내용                    |sae |2025-06-12 17:36:34 |2025-06-12 17:36:34 |0   |2   |
-|1   |새똥이가 쓴글     |내용                    |sae |2025-06-12 17:36:33 |2025-06-12 17:36:33 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-10:40:46.580 [main] INFO  BoardService - 개똥이가 쓴글
-10:40:46.582 [main] INFO  BoardService - 오늘의 메뉴
-10:40:46.582 [main] INFO  BoardService - 새똥이가 쓴글
-10:40:46.582 [main] INFO  BoardService - 글작성
-10:40:46.583 [main] INFO  BoardService - 오마에와 모우신데이루
-10:40:46.583 [main] INFO  BoardService - 오마에와 모우신데이루
-10:40:46.583 [main] INFO  BoardService - 글작성
-10:40:46.583 [main] INFO  BoardService - 새똥이가 쓴글
-10:40:46.583 [main] INFO  BoardService - 오늘의 메뉴
-10:40:46.583 [main] INFO  BoardService - 개똥이가 쓴글
-10:40:46.583 [main] INFO  BoardService - 제목
-10:40:46.584 [main] INFO  BoardService - 새똥이가 쓴글
-11:16:12.533 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 14 msec}
-11:16:12.563 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-11:16:12.578 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
+		order by bno desc 
+		limit 10 offset 0
  {executed in 9 msec}
-11:16:12.580 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
+10:54:52.262 [main] INFO  BoardMapperTest - [Board(bno=116, title=새똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=115, title=제목, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=114, title=개똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=113, title=오늘의 메뉴, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=112, title=새똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=111, title=글작성, content=<p>서울숲클라이밍짐 구로점</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=110, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=109, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=108, title=글작성, content=<p>서울숲클라이밍짐 구로점</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=107, title=새똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)]
+11:01:03.200 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2 
 
-11:16:12.627 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 12 msec}
-11:16:12.636 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-11:16:12.650 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 13 msec}
-11:16:12.650 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-11:16:12.697 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 13 msec}
-11:16:12.705 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-11:16:12.717 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 11 msec}
-11:16:12.718 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-11:16:12.764 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 12 msec}
-11:16:12.770 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-11:16:12.785 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 14 msec}
-11:16:12.786 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-11:16:13.052 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 12 msec}
-11:16:13.075 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-11:16:13.090 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 12 msec}
-11:16:13.091 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-11:16:13.142 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 14 msec}
-11:16:13.149 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-11:16:13.166 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
+		order by bno desc 
+		limit 10 offset 20
  {executed in 16 msec}
-11:16:13.167 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-11:16:13.218 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 11 msec}
-11:16:13.225 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-11:16:13.238 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
+11:01:03.229 [main] INFO  BoardMapperTest - [Board(bno=96, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=95, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=94, title=글작성, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=93, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=92, title=오늘의 메뉴, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=91, title=개똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=90, title=제목, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=89, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=88, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=87, title=제목, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)]
+11:01:03.250 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:01:03.251 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:01:03.251 [main] INFO  BoardMapperTest - 글작성
+11:01:03.251 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:01:03.251 [main] INFO  BoardMapperTest - 오늘의 메뉴
+11:01:03.251 [main] INFO  BoardMapperTest - 개똥이가 쓴글
+11:01:03.251 [main] INFO  BoardMapperTest - 제목
+11:01:03.252 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:01:03.252 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:01:03.252 [main] INFO  BoardMapperTest - 제목
+11:01:03.264 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 6 msec}
+11:01:03.265 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:08:32.823 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 7 msec}
+11:08:32.846 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:09:54.715 [main] INFO  sqltiming - select * from tbl_board where bno = 1
  {executed in 12 msec}
-11:16:13.238 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
+11:09:54.735 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:11:33.127 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 7 msec}
+11:11:33.149 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:13:31.043 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 11 msec}
+11:13:31.073 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:17:00.899 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 8 msec}
+11:17:00.925 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:18:07.618 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2
 
-11:16:13.288 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 13 msec}
-11:16:13.291 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
+				and (
 
-11:16:13.306 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
+						title like concat('%', '오마에', '%')
+
+					or
+						content like concat('%', '오마에', '%')
+
+					or
+						id like concat('%', '오마에', '%')
+
+				) 
+
+		order by bno desc 
+		limit 10 offset 0
+ {executed in 7 msec}
+11:18:07.646 [main] INFO  BoardMapperTest - [Board(bno=110, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=109, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=96, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=95, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=82, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=81, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=68, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=67, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=51, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2), Board(bno=50, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2)]
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.658 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.658 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.690 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2 
+
+		order by bno desc 
+		limit 10 offset 20
+ {executed in 7 msec}
+11:18:07.694 [main] INFO  BoardMapperTest - [Board(bno=96, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=95, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=94, title=글작성, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=93, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=92, title=오늘의 메뉴, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=91, title=개똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=90, title=제목, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=89, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=88, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=87, title=제목, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)]
+11:18:07.695 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.695 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.695 [main] INFO  BoardMapperTest - 글작성
+11:18:07.695 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:18:07.695 [main] INFO  BoardMapperTest - 오늘의 메뉴
+11:18:07.695 [main] INFO  BoardMapperTest - 개똥이가 쓴글
+11:18:07.695 [main] INFO  BoardMapperTest - 제목
+11:18:07.695 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:18:07.695 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:18:07.695 [main] INFO  BoardMapperTest - 제목
+11:18:07.730 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 5 msec}
+11:18:07.732 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:22:11.256 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2
+
+				and (
+
+						title like concat('%', '오마에', '%')
+
+					or
+						content like concat('%', '오마에', '%')
+
+					or
+						id like concat('%', '오마에', '%')
+
+				) 
+
+		order by bno desc 
+		limit 10 offset 0
  {executed in 14 msec}
-11:16:13.307 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
+11:22:11.291 [main] INFO  BoardMapperTest - [Board(bno=110, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=109, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=96, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=95, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=82, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=81, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=68, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=67, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=51, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2), Board(bno=50, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2)]
+11:22:11.305 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.305 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.305 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.306 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.306 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.307 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.307 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.308 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.308 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.308 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.338 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2 
 
-11:16:13.358 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 13 msec}
-11:16:13.367 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
+		order by bno desc 
+		limit 10 offset 20
+ {executed in 15 msec}
+11:22:11.344 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.344 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.344 [main] INFO  BoardMapperTest - 글작성
+11:22:11.344 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:22:11.344 [main] INFO  BoardMapperTest - 오늘의 메뉴
+11:22:11.344 [main] INFO  BoardMapperTest - 개똥이가 쓴글
+11:22:11.344 [main] INFO  BoardMapperTest - 제목
+11:22:11.344 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:22:11.345 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:22:11.345 [main] INFO  BoardMapperTest - 제목
+11:22:11.410 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 12 msec}
+11:22:11.411 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:34:31.552 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2
 
-11:16:13.382 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 14 msec}
-11:16:13.383 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
+				and (
 
-11:16:13.655 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 13 msec}
-11:16:13.665 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
+						title like concat('%', '오마에', '%')
 
-11:16:13.680 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 13 msec}
-11:16:13.681 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
+					or
+						id like concat('%', '오마에', '%')
 
-12:14:53.707 [main] INFO  PageDto - domain.dto.PageDto@2b6faea6
-12:15:33.807 [main] INFO  PageDto - domain.dto.PageDto@2b6faea6
-12:15:49.924 [main] INFO  PageDto - domain.dto.PageDto@2b6faea6
-12:16:15.483 [main] INFO  PageDto - PageDto(cri=Criteria(page=12, amount=10, cno=2), total=123, start=11, end=13, left=false, right=false, doubleLeft=false, doubleRight=false)
-12:38:29.231 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
+				) 
+
+		order by bno desc 
+		limit 10 offset 0
+ {executed in 15 msec}
+11:34:31.585 [main] INFO  BoardMapperTest - [Board(bno=110, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=109, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=96, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=95, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=82, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=81, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=68, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=67, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=51, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2), Board(bno=50, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2)]
+11:34:31.596 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.598 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.622 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2 
+
+		order by bno desc 
+		limit 10 offset 20
+ {executed in 5 msec}
+11:34:31.626 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.626 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.626 [main] INFO  BoardMapperTest - 글작성
+11:34:31.628 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:34:31.628 [main] INFO  BoardMapperTest - 오늘의 메뉴
+11:34:31.628 [main] INFO  BoardMapperTest - 개똥이가 쓴글
+11:34:31.628 [main] INFO  BoardMapperTest - 제목
+11:34:31.628 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:34:31.628 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:34:31.628 [main] INFO  BoardMapperTest - 제목
+11:34:31.651 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 5 msec}
+11:34:31.653 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+15:51:30.203 [main] INFO  sqltiming - select * from tbl_board where bno = 61
+ {executed in 16 msec}
+15:51:30.236 [main] INFO  sqltiming - update tbl_board set 
+		title='제목만 수정해보자고',
+		content='구로',
+		moddate = now(),
+		cno = 2
+		where bno = 61;
  {executed in 8 msec}
-12:38:29.260 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:29.277 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 8 msec}
-12:38:29.279 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:29.312 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 6 msec}
-12:38:29.321 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:29.327 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 6 msec}
-12:38:29.328 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:29.355 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 6 msec}
-12:38:29.362 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:29.369 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 6 msec}
-12:38:29.370 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:29.396 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 6 msec}
-12:38:29.402 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:29.408 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 5 msec}
-12:38:29.409 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:29.445 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 5 msec}
-12:38:29.452 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:29.458 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 5 msec}
-12:38:29.459 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:29.485 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 5 msec}
-12:38:29.489 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:29.496 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 5 msec}
-12:38:29.497 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:29.538 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 6 msec}
-12:38:29.546 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:29.553 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 6 msec}
-12:38:29.554 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:29.585 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 7 msec}
-12:38:29.590 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:29.597 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 7 msec}
-12:38:29.597 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:29.624 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 6 msec}
-12:38:29.626 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:29.632 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 6 msec}
-12:38:29.633 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:29.670 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 5 msec}
-12:38:29.674 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:29.681 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 6 msec}
-12:38:29.681 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:39.797 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 10 msec}
-12:38:39.824 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:39.836 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 5 msec}
-12:38:39.838 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:39.877 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 7 msec}
-12:38:39.886 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:39.894 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 7 msec}
-12:38:39.895 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:39.933 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 6 msec}
-12:38:39.940 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:39.950 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 9 msec}
-12:38:39.950 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:40.000 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 7 msec}
-12:38:40.006 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:40.016 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 10 msec}
-12:38:40.016 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:40.047 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 6 msec}
-12:38:40.052 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:40.058 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 6 msec}
-12:38:40.058 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:40.088 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 5 msec}
-12:38:40.093 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:40.100 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 7 msec}
-12:38:40.101 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:40.132 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 7 msec}
-12:38:40.137 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:40.142 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 5 msec}
-12:38:40.147 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:40.183 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 8 msec}
-12:38:40.186 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:40.194 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 6 msec}
-12:38:40.195 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:40.223 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 5 msec}
-12:38:40.226 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:40.232 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 5 msec}
-12:38:40.233 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:38:40.272 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 6 msec}
-12:38:40.277 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:38:40.286 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2;
- {executed in 5 msec}
-12:38:40.286 [main] INFO  resultsettable - 
-|---------|
-|count(*) |
-|---------|
-|112      |
-|---------|
-
-12:39:18.407 [main] INFO  sqltiming - select * from tbl_board
-		where cno = 2 
-		order by bno desc limit 10 offset 0
- {executed in 8 msec}
-12:39:18.435 [main] INFO  resultsettable - 
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|bno |title       |content               |id  |regdate             |moddate             |cnt |cno |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-|116 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|115 |제목          |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|114 |개똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|113 |오늘의 메뉴      |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|112 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|111 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|110 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|109 |오마에와 모우신데이루 |<p>나!!니!!</p>
-       |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|108 |글작성         |<p>서울숲클라이밍짐 구로점</p>
- |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|107 |새똥이가 쓴글     |내용                    |sae |2025-06-18 09:51:32 |2025-06-18 09:51:32 |0   |2   |
-|----|------------|----------------------|----|--------------------|--------------------|----|----|
-
-12:39:18.455 [main] INFO  BoardService - 새똥이가 쓴글
-12:39:18.457 [main] INFO  BoardService - 제목
-12:39:18.458 [main] INFO  BoardService - 개똥이가 쓴글
-12:39:18.458 [main] INFO  BoardService - 오늘의 메뉴
-12:39:18.458 [main] INFO  BoardService - 새똥이가 쓴글
-12:39:18.458 [main] INFO  BoardService - 글작성
-12:39:18.458 [main] INFO  BoardService - 오마에와 모우신데이루
-12:39:18.458 [main] INFO  BoardService - 오마에와 모우신데이루
-12:39:18.458 [main] INFO  BoardService - 글작성
-12:39:18.458 [main] INFO  BoardService - 새똥이가 쓴글

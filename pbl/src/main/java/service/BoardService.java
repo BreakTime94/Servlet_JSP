@@ -59,6 +59,26 @@ public class BoardService {
 		}
 		return 0;
 	}
+	public void modify(Board board) {
+		try(SqlSession session = MybatisUtil.getSqlSession()){
+			
+			BoardMapper mapper = session.getMapper(BoardMapper.class);
+			mapper.update(board);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	public void remove(Long bno) {
+		try(SqlSession session = MybatisUtil.getSqlSession()){	
+			BoardMapper mapper = session.getMapper(BoardMapper.class);
+			mapper.delete(bno);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
 	
 	public static void main(String[] args) {
 		new BoardService().list(new Criteria()).forEach(b -> log.info("{}" , b.getTitle()));

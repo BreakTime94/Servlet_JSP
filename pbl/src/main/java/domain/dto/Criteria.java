@@ -1,5 +1,8 @@
 package domain.dto;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+
 import javax.servlet.http.HttpServletRequest;
 
 import lombok.AllArgsConstructor;
@@ -15,17 +18,34 @@ public class Criteria {
 	private int page = 1;
 	private int amount = 10;
 	private int cno = 2 ;
-	private String type ; //제목 or 작성자 or 내용 (title, id, content)
-	private String keyword;
+	private String type = ""; //제목 or 작성자 or 내용 (title, id, content)
+	private String keyword = "";
+	
+	public Criteria(int page, int amount, int cno) {
+		this.page = page;
+		this.amount = amount;
+		this.cno = cno;
+	}
 	
 	public int getOffset() {
 		int offset = amount * (page - 1);
 		return offset;
 	}
 	
+//	public String getKeyword() {
+//		String keyword = null;
+//		try {
+//			keyword = URLDecoder.decode(keyword, "utf-8");
+//		} catch (UnsupportedEncodingException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		return keyword;
+//	}
+	
 	public String[] getTypes() {
 		String[] arr = null;
-		if(type != null) {
+		if(type != null && !type.equals("")) {
 			arr = type.split("");
 		}
 		return arr;
@@ -39,9 +59,19 @@ public class Criteria {
 			cri.page = Integer.parseInt(req.getParameter("page")); 
 			cri.amount = Integer.parseInt(req.getParameter("amount")); 
 			cri.type = req.getParameter("type");
-			cri.keyword = req.getParameter("keyword");
+			cri.keyword = URLDecoder.decode(req.getParameter("keyword"), "utf-8");
 		}
 		catch (Exception e) {}
 		return cri;
+	}
+	
+	public String getQs() {
+		String[] strs = {"cno=" + cno, "amount=" + amount, "type=" + type, "keyword=" + keyword};
+		String str = String.join("&", strs);
+		
+		return str;
+	}
+	public String getQs2() {
+		return getQs() + "&page=" + page;
 	}
 }
