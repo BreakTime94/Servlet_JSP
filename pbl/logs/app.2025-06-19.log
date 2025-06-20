@@ -1,0 +1,212 @@
+10:49:45.053 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 21 msec}
+10:49:53.190 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 7 msec}
+10:51:25.149 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 8 msec}
+10:51:57.768 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 8 msec}
+10:51:57.796 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+10:54:52.231 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2 
+
+		order by bno desc 
+		limit 10 offset 0
+ {executed in 9 msec}
+10:54:52.262 [main] INFO  BoardMapperTest - [Board(bno=116, title=새똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=115, title=제목, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=114, title=개똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=113, title=오늘의 메뉴, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=112, title=새똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=111, title=글작성, content=<p>서울숲클라이밍짐 구로점</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=110, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=109, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=108, title=글작성, content=<p>서울숲클라이밍짐 구로점</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=107, title=새똥이가 쓴글, content=내용, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)]
+11:01:03.200 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2 
+
+		order by bno desc 
+		limit 10 offset 20
+ {executed in 16 msec}
+11:01:03.229 [main] INFO  BoardMapperTest - [Board(bno=96, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=95, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=94, title=글작성, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=93, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=92, title=오늘의 메뉴, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=91, title=개똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=90, title=제목, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=89, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=88, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=87, title=제목, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)]
+11:01:03.250 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:01:03.251 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:01:03.251 [main] INFO  BoardMapperTest - 글작성
+11:01:03.251 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:01:03.251 [main] INFO  BoardMapperTest - 오늘의 메뉴
+11:01:03.251 [main] INFO  BoardMapperTest - 개똥이가 쓴글
+11:01:03.251 [main] INFO  BoardMapperTest - 제목
+11:01:03.252 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:01:03.252 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:01:03.252 [main] INFO  BoardMapperTest - 제목
+11:01:03.264 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 6 msec}
+11:01:03.265 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:08:32.823 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 7 msec}
+11:08:32.846 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:09:54.715 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 12 msec}
+11:09:54.735 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:11:33.127 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 7 msec}
+11:11:33.149 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:13:31.043 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 11 msec}
+11:13:31.073 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:17:00.899 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 8 msec}
+11:17:00.925 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:18:07.618 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2
+
+				and (
+
+						title like concat('%', '오마에', '%')
+
+					or
+						content like concat('%', '오마에', '%')
+
+					or
+						id like concat('%', '오마에', '%')
+
+				) 
+
+		order by bno desc 
+		limit 10 offset 0
+ {executed in 7 msec}
+11:18:07.646 [main] INFO  BoardMapperTest - [Board(bno=110, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=109, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=96, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=95, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=82, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=81, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=68, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=67, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=51, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2), Board(bno=50, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2)]
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.657 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.658 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.658 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.690 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2 
+
+		order by bno desc 
+		limit 10 offset 20
+ {executed in 7 msec}
+11:18:07.694 [main] INFO  BoardMapperTest - [Board(bno=96, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=95, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=94, title=글작성, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=93, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=92, title=오늘의 메뉴, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=91, title=개똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=90, title=제목, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=89, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=88, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=87, title=제목, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2)]
+11:18:07.695 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.695 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:18:07.695 [main] INFO  BoardMapperTest - 글작성
+11:18:07.695 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:18:07.695 [main] INFO  BoardMapperTest - 오늘의 메뉴
+11:18:07.695 [main] INFO  BoardMapperTest - 개똥이가 쓴글
+11:18:07.695 [main] INFO  BoardMapperTest - 제목
+11:18:07.695 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:18:07.695 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:18:07.695 [main] INFO  BoardMapperTest - 제목
+11:18:07.730 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 5 msec}
+11:18:07.732 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:22:11.256 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2
+
+				and (
+
+						title like concat('%', '오마에', '%')
+
+					or
+						content like concat('%', '오마에', '%')
+
+					or
+						id like concat('%', '오마에', '%')
+
+				) 
+
+		order by bno desc 
+		limit 10 offset 0
+ {executed in 14 msec}
+11:22:11.291 [main] INFO  BoardMapperTest - [Board(bno=110, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=109, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=96, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=95, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=82, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=81, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=68, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=67, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=51, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2), Board(bno=50, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2)]
+11:22:11.305 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.305 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.305 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.306 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.306 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.307 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.307 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.308 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.308 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.308 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.338 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2 
+
+		order by bno desc 
+		limit 10 offset 20
+ {executed in 15 msec}
+11:22:11.344 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.344 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:22:11.344 [main] INFO  BoardMapperTest - 글작성
+11:22:11.344 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:22:11.344 [main] INFO  BoardMapperTest - 오늘의 메뉴
+11:22:11.344 [main] INFO  BoardMapperTest - 개똥이가 쓴글
+11:22:11.344 [main] INFO  BoardMapperTest - 제목
+11:22:11.344 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:22:11.345 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:22:11.345 [main] INFO  BoardMapperTest - 제목
+11:22:11.410 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 12 msec}
+11:22:11.411 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+11:34:31.552 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2
+
+				and (
+
+						title like concat('%', '오마에', '%')
+
+					or
+						id like concat('%', '오마에', '%')
+
+				) 
+
+		order by bno desc 
+		limit 10 offset 0
+ {executed in 15 msec}
+11:34:31.585 [main] INFO  BoardMapperTest - [Board(bno=110, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=109, title=오마에와 모우신데이루, content=<p>나!!니!!</p>
+, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=96, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=95, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=82, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=81, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=68, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=67, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:32, moddate=2025-06-18 09:51:32, cnt=0, cno=2), Board(bno=51, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2), Board(bno=50, title=오마에와 모우신데이루, content=구로, id=sae, regdate=2025-06-18 09:51:31, moddate=2025-06-18 09:51:31, cnt=0, cno=2)]
+11:34:31.596 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.597 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.598 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.622 [main] INFO  sqltiming - select * from tbl_board
+		 WHERE cno = 2 
+
+		order by bno desc 
+		limit 10 offset 20
+ {executed in 5 msec}
+11:34:31.626 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.626 [main] INFO  BoardMapperTest - 오마에와 모우신데이루
+11:34:31.626 [main] INFO  BoardMapperTest - 글작성
+11:34:31.628 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:34:31.628 [main] INFO  BoardMapperTest - 오늘의 메뉴
+11:34:31.628 [main] INFO  BoardMapperTest - 개똥이가 쓴글
+11:34:31.628 [main] INFO  BoardMapperTest - 제목
+11:34:31.628 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:34:31.628 [main] INFO  BoardMapperTest - 새똥이가 쓴글
+11:34:31.628 [main] INFO  BoardMapperTest - 제목
+11:34:31.651 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+ {executed in 5 msec}
+11:34:31.653 [main] INFO  BoardMapperTest - Board(bno=1, title=새똥이가 쓴글, content=구로, id=sae, regdate=2025-06-12 17:36:33, moddate=2025-06-12 17:36:33, cnt=0, cno=2)
+15:51:30.203 [main] INFO  sqltiming - select * from tbl_board where bno = 61
+ {executed in 16 msec}
+15:51:30.236 [main] INFO  sqltiming - update tbl_board set 
+		title='제목만 수정해보자고',
+		content='구로',
+		moddate = now(),
+		cno = 2
+		where bno = 61;
+ {executed in 8 msec}

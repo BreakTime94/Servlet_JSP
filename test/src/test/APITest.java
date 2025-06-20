@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.List;
 
+import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -35,6 +37,22 @@ public class APITest {
         rd.close();
         conn.disconnect();
         
+        
+//        Gson gson = new Gson();
+//        ApiResponse apiResponse = gson.fromJson(json, ApiResponse.class);
+//
+//        // 명소 리스트 뽑기
+//        List<Attraction> attractions = apiResponse.getTbVwAttractions().getRow();
+//
+//        // 출력
+//        for (Attraction a : attractions) {
+//            System.out.println("▶ 명소 이름: " + a.getPOST_SJ());
+//            System.out.println("  - 주소: " + a.getADDRESS());
+//            System.out.println("  - 지하철: " + a.getSUBWAY_INFO());
+//            System.out.println();
+//        }
+        
+        
         JsonObject json = JsonParser.parseString(sb.toString()).getAsJsonObject();
         
         JsonArray rows = json.getAsJsonObject("TbVwAttractions").getAsJsonArray("row");
@@ -44,9 +62,10 @@ public class APITest {
         	
         }
         
-
         System.out.println("결과:");
         System.out.println(sb.toString()); // JSON 문자열 출력
+        
+        
 	}
 	
 }

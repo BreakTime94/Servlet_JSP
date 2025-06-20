@@ -9,6 +9,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import domain.Board;
+import domain.Reply;
 import domain.dto.Criteria;
 import lombok.extern.slf4j.Slf4j;
 import util.MybatisUtil;
@@ -17,6 +18,7 @@ import util.MybatisUtil;
 public class BoardMapperTest {
 	
 	private BoardMapper boardMapper = MybatisUtil.getSqlSession().getMapper(BoardMapper.class);
+	
 	
 	@Test
 	public void addTest() {
@@ -66,4 +68,5 @@ public class BoardMapperTest {
 		
 		boardMapper.update(board);
 	}
+	
 }
