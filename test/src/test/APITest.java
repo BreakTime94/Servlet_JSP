@@ -12,12 +12,15 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.sun.org.apache.xpath.internal.operations.Equals;
+
+import attraction.Attribution;
 
 public class APITest {
 	
 	public static void main(String[] args) throws IOException {
 		String apiKey = "6a594745646b696d3435774a61436d";
-        String urlStr = "http://openapi.seoul.go.kr:8088/" + apiKey + "/json/TbVwAttractions/1/10/";
+        String urlStr = "http://openapi.seoul.go.kr:8088/" + apiKey + "/json/TbVwAttractions/1/2/";
 
         URL url = new URL(urlStr);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -37,33 +40,27 @@ public class APITest {
         rd.close();
         conn.disconnect();
         
-        
-//        Gson gson = new Gson();
-//        ApiResponse apiResponse = gson.fromJson(json, ApiResponse.class);
-//
-//        // 명소 리스트 뽑기
-//        List<Attraction> attractions = apiResponse.getTbVwAttractions().getRow();
-//
-//        // 출력
-//        for (Attraction a : attractions) {
-//            System.out.println("▶ 명소 이름: " + a.getPOST_SJ());
-//            System.out.println("  - 주소: " + a.getADDRESS());
-//            System.out.println("  - 지하철: " + a.getSUBWAY_INFO());
-//            System.out.println();
-//        }
-        
-        
+        System.out.println(sb);
+        System.out.println(sb.toString());
+        System.out.println(JsonParser.parseString(sb.toString()));
         JsonObject json = JsonParser.parseString(sb.toString()).getAsJsonObject();
-        
+        System.out.println(JsonParser.parseString(sb.toString()) == (json));
+        System.out.println(json);
+//        
         JsonArray rows = json.getAsJsonObject("TbVwAttractions").getAsJsonArray("row");
-        System.out.println(rows);
-        for (JsonElement el : rows) {
-        	JsonObject obj = el.getAsJsonObject();
-        	
-        }
+//        System.out.println(rows);
+//        for (JsonElement el : rows) {
+//        	JsonObject obj = el.getAsJsonObject();
+//        	
+//        }
+//        
+//        System.out.println("결과:");
+//        System.out.println(sb.toString()); // JSON 문자열 출력
         
-        System.out.println("결과:");
-        System.out.println(sb.toString()); // JSON 문자열 출력
+        Gson gson = new Gson();
+//        Attribution attr = gson.fromJson(json, null);
+        
+        
         
         
 	}
