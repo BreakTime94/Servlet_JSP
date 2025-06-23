@@ -85,10 +85,11 @@ public class ReplyServlet extends HttpServlet{
 		
 		Reply reply  = new Gson().fromJson(ret, Reply.class);
 //		System.out.println(reply);
+		//rno > null
 		new ReplyService().register(reply);
-		
+		//rno > not null
 		resp.setContentType("application/json; charset=utf-8");
-		resp.getWriter().print(new Gson().toJson(Map.of("result", true)));
+		resp.getWriter().print(new Gson().toJson(Map.of("result", true, "reply", reply)));
 	}
 
 	@Override
