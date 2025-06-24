@@ -9,6 +9,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
+import javax.imageio.ImageIO;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
@@ -21,6 +22,8 @@ import com.google.gson.Gson;
 
 import domain.Attach;
 import lombok.extern.slf4j.Slf4j;
+import net.coobird.thumbnailator.Thumbnailator;
+import net.coobird.thumbnailator.Thumbnails;
 
 @WebServlet("/upload")
 @MultipartConfig(location = "d:/upload/tmp", 
@@ -40,6 +43,8 @@ public class UploadFile extends HttpServlet{
 		Collection<Part> parts =  req.getParts();
 		final String UPLOAD_PATH = "d:/upload/files";
 		List<Attach> attachs = new ArrayList<Attach>();
+		
+		int odr = 0;
 		for(Part part : parts) {
 			if(part.getSize() == 0) {
 				continue;
@@ -73,13 +78,25 @@ public class UploadFile extends HttpServlet{
 			
 			part.write(realPath + fileName);
 			
+			if(image) {
+				//이미지인 경우 추가처리 > 썸네일 생성
+				try {					
+					Thumbnails.of(new File(realPath + fileName)).size(150, 150).toFile(realPath + "t_" + fileName);
+				}
+				catch (Exception e) {
+					image = false;
+				}
+				//ImageIo로도 사용 가능하다
+			}
+			
 			log.info("{} :: {} :: {} :: {}",  fileSize, origin, contentType, ext);
 			attachs.add(Attach.builder()
 					.uuid(fileName)
 					.origin(origin)
 					.image(image)
 					.path(path)
-					.build());
+					.odr(odr++)
+			.build());
 		}
 		
 		resp.setContentType("application/json; charset=utf-8");

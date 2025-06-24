@@ -18,7 +18,7 @@ import apidto.TripInfo;
 public class TripInfoService {
 	
 	public List<TripInfo> getList() throws IOException {
-		String urlStr = "http://openapi.seoul.go.kr:8088/6a594745646b696d3435774a61436d/json/TbVwAttractions/1/5/";
+		String urlStr = "http://openapi.seoul.go.kr:8088/6a594745646b696d3435774a61436d/json/TbVwAttractions/1/10/";
 		
 		URL url = new URL(urlStr);
 		
@@ -64,7 +64,7 @@ public class TripInfoService {
 		List<TripInfo> list = tis.getList();
 		
 		System.out.println(list);
-		
+		System.out.println(list.size());
 		System.out.println(tis.selectOne(2).getADDRESS());
 		System.out.println(tis.selectOne(2).getCMMN_TELNO());
 		System.out.println(tis.selectOne(2).getCMMN_USE_TIME());

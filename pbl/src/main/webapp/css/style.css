@@ -5,7 +5,7 @@
         a {text-decoration: none; color: #222;}
         header, footer {padding: 1em; background: #222; color: #eee; text-align: center;}
         .resize-none {resize: none;}
-        .container {width: 1200px; margin: 0 auto;}
+        .container {max-width: 1200px; margin: 0 auto;}
         nav{background: #eee;}
 
         /* cke 경고창 무시용 */

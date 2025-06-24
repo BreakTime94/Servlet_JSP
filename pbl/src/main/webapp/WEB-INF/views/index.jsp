@@ -10,7 +10,7 @@
 <%@ include file="common/header.jsp" %>
 <%@ include file="common/nav.jsp" %>
 <main>
-	<h1>index</h1>
+	<h1>index</h1> 
 	<c:if test="${empty member}">
 	<a href="member/register">회원가입</a>
 	<a href="member/login">로그인</a>
