@@ -16,11 +16,6 @@
 			</ul>
 
 			<div class="row justify-content-arround w-75 mx-auto attach-thumb">
-				<div class="my-2 col-12 col-sm-4 col-lg-2 "><div style="height : 150px" class="my-2 bg-primary"><i class="fa-solid fa-circle-xmark float-end text-danger m-2"></i></div></div>
-				<div class="my-2 col-12 col-sm-4 col-lg-2 "><div style="height : 150px" class="my-2 bg-info"><i class="fa-solid fa-circle-xmark float-end text-danger m-2"></i></div></div>
-				<div class="my-2 col-12 col-sm-4 col-lg-2 "><div style="height : 150px" class="my-2 bg-warning"><i class="fa-solid fa-circle-xmark float-end text-danger m-2"></i></div></div>
-				<div class="my-2 col-12 col-sm-4 col-lg-2 "><div style="height : 150px" class="my-2 bg-secondary"><i class="fa-solid fa-circle-xmark float-end text-danger m-2"></i></div></div>
-				<div class="my-2 col-12 col-sm-4 col-lg-2 "><div style="height : 150px" class="my-2 bg-success"><i class="fa-solid fa-circle-xmark float-end text-danger m-2"></i></div></div>
 			</div>
 		</div>
 	</div>
@@ -49,8 +44,16 @@
 			}
 			return isValid;
 		}
+		  
+		$(".attach-area").on("click", "i", function(){
+			const uuid = $(this).closest("[data-uuid]").data("uuid");
+			console.log(uuid);
+			$('[data-uuid="' + uuid '"]').remove();
+		});
+		
+		
 		$('#f1').change(function(){
-		/* $("#uploadForm").submit(function() { */
+			
 			event.preventDefault();
 			const formData = new FormData();
 			
@@ -75,6 +78,7 @@
 				success: function(data) {
 					console.log(data); 
 					let str = "";
+					let thumbStr = "";
 					for(let a of data) {// 확인용 코드
 						// $(".container").append("<p>" + data[a].origin + "x</p>");
 						str += `<li class="list-group-item d-flex align-items-center justify-content-between"
@@ -84,20 +88,30 @@
 						  data-path="\${a.path}"
 						  data-odr="\${a.odr}"
 						>
-							<a href="${cp}/download">\${a.origin}</a>
+							<a href="${cp}/download?uuid=\${a.uuid}&origin=\${a.origin}&path=\${a.path}">\${a.origin}</a>
 							<i class="fa-solid fa-circle-xmark float-end text-danger"></i>
-						</li>`
+						</li>`;
+						if(a.image) {
+							thumbStr += `<div class="my-2 col-12 col-sm-4 col-lg-2 "
+							   data-uuid="\${a.uuid}"
+							>
+								<div class="my-2 bg-primary" 
+								style="height: 150px; background-size: cover; background-image:url('${cp}/display?uuid=t_\${a.uuid}&path=\${a.path}')">
+									<i class="fa-solid fa-circle-xmark float-end text-danger m-2"></i>
+								</div>
+								</div>`
+						}
 					}
 					$(".attach-list").html(str);
-					console.log(data);
-					console.log(str);
+					$(".attach-thumb").html(thumbStr);
+					// console.log(thumbStr);
+					// console.log(str);
 					//이미지인 경우와 아닌경우 -> 이미지 파일은 썸네일, 
-					
-					
 				}
 			})
 		})
-	});
+	})
+	
 	</script>
 </body>
 </html>

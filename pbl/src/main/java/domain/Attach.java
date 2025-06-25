@@ -1,10 +1,14 @@
 package domain;
 
+import org.apache.ibatis.type.Alias;
+
 import lombok.Builder;
 import lombok.Data;
+import lombok.Setter;
 
 @Data
 @Builder
+@Alias("attach")
 public class Attach {
 	private String uuid; //unjversal unique id
 	private String path;
@@ -13,4 +17,12 @@ public class Attach {
 	private Long bno;
 	private Long rno;
 	private int odr;
+	
+	@Setter
+	private String info;
+	
+	public String getInfo() {
+		String[] strs = {"uuid="+ uuid, "path=" + path, "origin=" + origin};
+		return String.join("&", strs);
+	}
 }
