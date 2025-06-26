@@ -24,9 +24,14 @@ public class Board {
 	private String moddate;
 	private Integer cnt;
 	private Integer cno;
+	private int replyCnt;
+	private int attachCnt;
 	
+	
+
 	public Board(Long bno, String title, String content, String id, String regdate, String moddate, Integer cnt,
-			Integer cno) {
+			Integer cno, int replyCnt, int attachCnt) {
+		super();
 		this.bno = bno;
 		this.title = title;
 		this.content = content;
@@ -35,7 +40,11 @@ public class Board {
 		this.moddate = moddate;
 		this.cnt = cnt;
 		this.cno = cno;
+		this.replyCnt = replyCnt;
+		this.attachCnt = attachCnt;
 	}
+
+
 
 	@Builder.Default
 	private List<Attach> attachs = new ArrayList<>();

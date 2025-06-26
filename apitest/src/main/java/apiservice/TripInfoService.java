@@ -18,7 +18,7 @@ import apidto.TripInfo;
 public class TripInfoService {
 	
 	public List<TripInfo> getList() throws IOException {
-		String urlStr = "http://openapi.seoul.go.kr:8088/6a594745646b696d3435774a61436d/json/TbVwAttractions/1/10/";
+		String urlStr = "http://openapi.seoul.go.kr:8088/6a594745646b696d3435774a61436d/json/TbVwAttractions/1/1000/";
 		
 		URL url = new URL(urlStr);
 		

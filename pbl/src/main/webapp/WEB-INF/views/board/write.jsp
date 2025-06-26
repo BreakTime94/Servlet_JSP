@@ -117,6 +117,7 @@
 						  data-image="\${a.image}"
 						  data-path="\${a.path}"
 						  data-odr="\${a.odr}"
+						  data-size="\${a.size}"
 						>
 							<a href="${cp}/download?uuid=\${a.uuid}&origin=\${a.origin}&path=\${a.path}">\${a.origin}</a>
 							<i class="fa-solid fa-circle-xmark float-end text-danger"></i>
@@ -146,7 +147,7 @@
 			const data = [];
 			$(".attach-list li").each(function(){
 				//console.log({...this.dataset});
-				data.push({... this.dataset});
+				data.push({...this.dataset});
 			});
 			console.log(JSON.stringify(data));
 			

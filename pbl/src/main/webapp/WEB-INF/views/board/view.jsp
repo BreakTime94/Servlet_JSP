@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix= "fmt"%> 
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,6 +41,38 @@
                 <button class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-clipboard"></i> 스크랩</button>
             </div>
         </div>
+        
+        <c:if test="${fn:length(board.attachs) > 0}">
+        <div class="d-grid my-2 attach-area">
+			<div class="small my-1"><i class="fa-solid fa-paperclip"></i>첨부파일</div>
+			<!-- <label class="btn btn-info">파일첨부<input type="file" multiple="" class="d-none" id="f1"></label> -->
+			<ul class="list-group my-3 attach-list">
+				<c:forEach items="${board.attachs}" var="a">
+				<li class="list-group-item d-flex align-items-center justify-content-between" 
+				data-uuid="${a.uuid}"
+				data-origin="${a.origin}" 
+				data-image="${a.image}" 
+				data-path="${a.path}" 
+				data-size="${a.size}"
+				data-odr="${a.odr}">
+					<a href="/pbl/download?uuid=${a.uuid}&origin=${a.origin}&path=${a.path}">${a.origin}</a>
+					<!-- <i class="fa-solid fa-circle-xmark float-end text-danger"></i> -->
+				</li>
+				</c:forEach>
+			</ul>
+			<div class="row justify-content-arround w-75 mx-auto attach-thumb">
+				<c:forEach items="${board.attachs}" var="a">
+				<c:if test="${a.image}">
+				<div class="my-2 col-12 col-sm-4 col-lg-2 " data-uuid="${a.uuid}">
+					<div class="my-2 bg-primary" style="height: 150px; background-size: cover; background-image:url('/pbl/display?uuid=t_${a.uuid}&path=${a.path}')">
+						<%-- <i class="fa-solid fa-circle-xmark float-end text-danger m-2"></i> --%>
+					</div>
+				</div>
+				</c:if>
+				</c:forEach>
+			</div>
+		</div>
+        </c:if>
         	<div class="small p-0 py-2  border-top border-bottom border-1 border-muted mt-4 clearfix align-items-center d-flex">
         		<div class="col">        		
 		          <i class="fa-regular fa-comment-dots"></i><span class="px-1 text-primary">Reply</span>

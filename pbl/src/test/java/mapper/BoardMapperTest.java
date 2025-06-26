@@ -26,10 +26,20 @@ public class BoardMapperTest {
 		assertEquals(2, result);
 	}
 	@Test
+	@DisplayName("cnt 증가 테스트")
+	public void increaseCntTest() {
+		long bno = 141L;
+		Board board = boardMapper.selectOne(bno);
+		log.info("{}", board.getCnt());
+		boardMapper.increaseCnt(bno);
+		log.info("{}", board.getCnt());
+	}
+	
+	@Test
 	@DisplayName("단일 게시글 조회용 테스트")
 	public void testSelectOne() {
 		//given
-		long bno = 1L;
+		long bno = 141L;
 		
 		Board board = boardMapper.selectOne(bno);
 		
@@ -42,12 +52,12 @@ public class BoardMapperTest {
 	@Test
 	@DisplayName("목록조회 3페이지 10개씩 2번카테고리")
 	public void testList() {
-		Criteria cri = new Criteria(3, 10, 2);
+		Criteria cri = new Criteria(1, 10, 2);
 		
 		List<Board> list = boardMapper.list(cri);
 		
 //		log.info("{}", list);
-		list.forEach(b -> log.info("{}", b.getTitle()));
+		list.forEach(b -> log.info("{} {} {}", b.getAttachs(), b.getReplyCnt(), b.getAttachCnt()));
 	}
 	@Test
 	@DisplayName("목록조회 검색어 테스트")

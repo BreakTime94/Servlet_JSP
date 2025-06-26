@@ -1,0 +1,6 @@
+10:47:14.259 [main] INFO  ReplyMapperTest - Reply(rno=null, content=매퍼 테스트 등록 댓글, id=sae, regdate=null, bno=132)
+10:47:14.305 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values ('매퍼 테스트 등록 댓글', 'sae', 132)
+ {executed in 8 msec}
+10:47:14.312 [main] INFO  sqltiming - select max(rno) from tbl_reply
+ {executed in 5 msec}
+10:47:14.328 [main] INFO  ReplyMapperTest - Reply(rno=135, content=매퍼 테스트 등록 댓글, id=sae, regdate=null, bno=132)

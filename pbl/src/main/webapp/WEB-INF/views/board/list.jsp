@@ -76,11 +76,18 @@
                 <div class="row text-center align-items-center small text-muted">
                     <div class="col-1 small">${board.bno}</div>
                     <div class="col-1 small">${board.cno}</div>
-                    <div class="col text-start fw-bold text-black">${board.title}<span class="small text-danger">1</span></div>
-                    <div class="col-1 small"><span class="small">
-                    <fmt:parseDate value="${board.regdate}" pattern="yyyy-MM-dd HH:mm:ss" var="parsedDate"/>
-                    <fmt:formatDate value="${parsedDate}" pattern="yy.MM.dd"/>
-                    </span></div>
+                    <div class="col text-start fw-bold text-black">${board.title}
+                    <span class="small text-danger">${board.replyCnt}</span>
+                    	<c:if test="${board.attachCnt > 0}">
+                    	<i class="fa-solid fa-paperclip"></i>
+                    	</c:if>
+                    </div>
+                    <div class="col-1 small">
+	                    <span class="small">
+	                    <fmt:parseDate value="${board.regdate}" pattern="yyyy-MM-dd HH:mm:ss" var="parsedDate"/>
+	                    <fmt:formatDate value="${parsedDate}" pattern="yy.MM.dd"/>
+	                    </span>
+                    </div>
                     <div class="col-1 small"><span class="small">${board.cnt}</span></div>
                 </div>
             </a>
