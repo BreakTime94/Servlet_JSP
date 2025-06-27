@@ -12,8 +12,19 @@
 <%@ include file="../common/nav.jsp" %>
 	<div class="container p-0">
  		<main>
-        <form method="post" action="modify" onsubmit="return confirm('수정하시겠습니까?')" id="modifyForm">
-            <div class="small border-bottom border-3 border-primary p-0 pb-2"><a href="" class="small"><span class="text-primary">자유게시판</span> 카테고리</a></div>
+        <form method="post" action="modify" id="modifyForm">
+            <div class="small border-bottom border-3 border-primary p-0 pb-2">
+            <a href="" class="small">
+            	<span class="text-primary">
+            		<c:forEach items="${cate}" var="c">
+    						<c:if test="${c.cno == cri.cno}">	     						
+    						${c.cname} 
+    						</c:if>
+    					</c:forEach>	
+            	</span>
+           	카테고리
+           	</a>
+            </div>
             <div class="small p-0 py-2">
                 <input placeholder="title" class="form-control" name="title" id="title" value="${board.title}">  
             </div>
@@ -25,8 +36,8 @@
                 <a href="" class="text-muted small">board.html</a>
                 <span class="float-end text-muted small me-3">2025-06-13 11:20</span>
             </div>
-            <div>
-                <button class="btn btn-secondary btn-sm"><i class="fa-solid fa-list-ul"></i> 목록</button>
+            <div class="my-2">
+                <a href="${cp}/board/list?${cri.qs2}" class="btn btn-secondary btn-sm"><i class="fa-solid fa-list-ul"></i> 목록</a>
                 <div class="float-end">
                     <button class="btn btn-outline-warning btn-sm"><i class="fa-solid fa-pen-fancy"></i> 글수정</button>
                 </div>
@@ -73,7 +84,8 @@
    
     </main>
 	</div>
-<%@ include file="../common/footer.jsp" %>
+
+<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
 	<script>
 	        $(function(){
 	            CKEDITOR.replace('editor1', {
@@ -84,6 +96,7 @@
     </script>
     <script>
     $(function() {
+    	$(".attach-list").sortable();
 		function validateFiles(files) {
 			const MAX_COUNT = 5;
 			const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
@@ -188,12 +201,16 @@
 	
 		$('#modifyForm').submit(function(){
 			event.preventDefault();
+			if(!confirm("수정하시겠습니까?")) {
+				return;
+			}
 			const data = [];
 			$(".attach-list li").each(function(){
 				//console.log({...this.dataset});
 				data.push({...this.dataset});
 			});
 			console.log(JSON.stringify(data));
+			data.forEach((item, idx) => item.odr = idx);
 			
 			$("[name='encodedStr']").val(JSON.stringify(data));
 			this.submit();
@@ -201,6 +218,6 @@
 		})
 	})
     </script>
-    
+ <%@ include file="../common/footer.jsp" %>
 </body>
 </html>

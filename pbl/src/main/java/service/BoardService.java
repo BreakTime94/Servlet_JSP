@@ -9,6 +9,7 @@ import domain.dto.Criteria;
 import lombok.extern.slf4j.Slf4j;
 import mapper.AttachMapper;
 import mapper.BoardMapper;
+import mapper.ReplyMapper;
 import util.MybatisUtil;
 
 @Slf4j
@@ -108,12 +109,23 @@ public class BoardService {
 		}
 	}
 	public void remove(Long bno) {
-		try(SqlSession session = MybatisUtil.getSqlSession()){	
+		SqlSession session = MybatisUtil.getSqlSession(false);
+		try{
 			BoardMapper mapper = session.getMapper(BoardMapper.class);
+			AttachMapper attachMapper = session.getMapper(AttachMapper.class);
+			ReplyMapper replyMapper = session.getMapper(ReplyMapper.class);
+			//기존 첨부파일 메타데이터 제거
+			replyMapper.deleteByBno(bno);
+			attachMapper.deleteByBno(bno);
 			mapper.delete(bno);
+			
+			session.commit();
 		}
 		catch (Exception e) {
+			session.rollback();
 			e.printStackTrace();
+		} finally {
+			session.close();
 		}
 	}
 	

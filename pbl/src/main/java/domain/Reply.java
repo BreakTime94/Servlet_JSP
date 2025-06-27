@@ -14,5 +14,6 @@ public class Reply {
 	private String id;
 	private String regdate;
 	private Long bno;
+	
 }
 
