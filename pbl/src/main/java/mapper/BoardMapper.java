@@ -19,4 +19,12 @@ public interface BoardMapper {
 	void delete(Long bno);
 	
 	void increaseCnt (Long bno);
+	
+	void updateGrpMyself(Board board);
+	
+	void updateSeqIncrease(Board parent);
+	
+	void insertChild(Board child);
+	
+	int selectMaxSeq(Board parent);
 }

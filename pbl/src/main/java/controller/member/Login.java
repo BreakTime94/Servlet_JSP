@@ -14,6 +14,7 @@ import domain.Member;
 import domain.dto.Criteria;
 import lombok.extern.slf4j.Slf4j;
 import service.MemberService;
+import util.ParamUtil;
 
 @WebServlet("/member/login")
 @Slf4j
@@ -26,11 +27,12 @@ public class Login extends HttpServlet{
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		String id = req.getParameter("id"); 
-		String pw = req.getParameter("pw"); 
-		log.info("{} {}", id, pw);
+//		String id = req.getParameter("id"); 
+//		String pw = req.getParameter("pw"); 
+//		log.info("{} {}", id, pw);
+		Member member = ParamUtil.get(req, Member.class);
 		
-		boolean ret = new MemberService().login(id, pw);
+		boolean ret = new MemberService().login(member.getId(), member.getPw());
 		
 		log.info("{}", ret);
 		
@@ -38,7 +40,7 @@ public class Login extends HttpServlet{
 			HttpSession session = req.getSession();
 			log.info("{}", req.getContextPath());
 			session.setMaxInactiveInterval(60 * 10);
-			session.setAttribute("member", new MemberService().findById(id));
+			session.setAttribute("member", new MemberService().findById(member.getId()));
 			
 			String url = req.getParameter("url");
 			if(url == null) {				

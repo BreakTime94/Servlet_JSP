@@ -58,7 +58,31 @@ public class BoardService {
 		try{
 			
 			BoardMapper mapper = session.getMapper(BoardMapper.class);
-			mapper.insert(board);
+			Long bno = board.getBno();
+			
+			if(bno == null) { // 답글아닌 신규글
+				mapper.insert(board);
+				mapper.updateGrpMyself(board);
+			} else { //답글일 경우
+				//1. 부모글 조회 -> bno와 그 밖의 정보를 가져오기 위함
+				Board parent = mapper.selectOne(bno);
+				
+				// 2. maxSeq 취득
+				//select 필요
+				
+				int maxSeq = mapper.selectMaxSeq(parent);
+				board.setSeq(maxSeq+ 1); //얘가 답답글인지 답글인지에 따라서 좀 조정이 필요하다. 복잡하다! 
+				
+				// 3. 해당 조건의 게시글들의 seq 밀어내기 
+				board.setGrp(parent.getGrp()); //확정
+				board.setDepth(parent.getDepth() + 1); // 확정
+				mapper.updateSeqIncrease(board); //그렇기에 이 친구도 수정이 필요하다.
+				
+				// 4. insert 수행
+				log.info("{}", board);
+				mapper.insertChild(board);
+			}
+			
 			AttachMapper attachMapper = session.getMapper(AttachMapper.class);
 			board.getAttachs().forEach(a -> {
 				a.setBno(board.getBno());

@@ -27,6 +27,12 @@ public class Board {
 	private int replyCnt;
 	private int attachCnt;
 	
+	//답글을 위한 3개의 필드
+	private Long grp; //원글은 grp가 없다 null 일 수 있다.
+	@Builder.Default
+	private int seq = 1;
+	@Builder.Default
+	private int depth = 1;
 	
 
 	public Board(Long bno, String title, String content, String id, String regdate, String moddate, Integer cnt,
@@ -43,8 +49,6 @@ public class Board {
 		this.replyCnt = replyCnt;
 		this.attachCnt = attachCnt;
 	}
-
-
 
 	@Builder.Default
 	private List<Attach> attachs = new ArrayList<>();

@@ -14,6 +14,7 @@ import com.google.gson.Gson;
 import domain.Reply;
 import lombok.extern.slf4j.Slf4j;
 import service.ReplyService;
+import util.JsonRespUtil;
 
 @WebServlet("/reply/*")
 @Slf4j
@@ -37,8 +38,8 @@ public class ReplyServlet extends HttpServlet{
 		
 		String uri = getURI(req);
 		ReplyService service = new ReplyService();
-		Gson gson = new Gson();
-		String ret = "";
+//		Gson gson = new Gson();
+		Object o = null;
 		
 		
 		if(uri.startsWith("list") || uri.equals("*")) {//목록조회
@@ -55,16 +56,15 @@ public class ReplyServlet extends HttpServlet{
 					if(tmps.length > 2) {
 						lastRno = Long.valueOf(tmps[2]);
 					}
-					ret = gson.toJson(service.list(bno, lastRno));
+					o = service.list(bno, lastRno);
 				}	
 			}
 		}
 		else { // 단일조회
-			ret = gson.toJson(service.findBy(Long.parseLong(uri)));
+			o = service.findBy(Long.parseLong(uri));
 		}
-		resp.setContentType("application/json; charset=utf-8");
-		resp.getWriter().print(ret);
-		}
+		JsonRespUtil.writeJson(resp, o);
+	}
 
 	@Override
 	protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -73,37 +73,32 @@ public class ReplyServlet extends HttpServlet{
 		
 		new ReplyService().remove(rno);
 		
-		resp.setContentType("application/json; charset=utf-8");
-		resp.getWriter().print(new Gson().toJson(Map.of("result", true)));
+//		resp.setContentType("application/json; charset=utf-8");
+//		resp.getWriter().print(new Gson().toJson(Map.of("result", true)));
+		JsonRespUtil.writeJson(resp, Map.of("result", true));
 	}
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		req.setCharacterEncoding("utf-8");
-		String ret = String.join("", req.getReader().lines().toList());	
-		
-		Reply reply  = new Gson().fromJson(ret, Reply.class);
-//		System.out.println(reply);
-		//rno > null
+//		req.setCharacterEncoding("utf-8");
+//		String ret = String.join("", req.getReader().lines().toList());	
+//		Reply reply  = new Gson().fromJson(ret, Reply.class);
+		Reply reply = JsonRespUtil.readJson(req, Reply.class);
 		new ReplyService().register(reply);
-		//rno > not null
-		resp.setContentType("application/json; charset=utf-8");
-		resp.getWriter().print(new Gson().toJson(Map.of("result", true, "reply", reply)));
+		JsonRespUtil.writeJson(resp, Map.of("result", true, "reply", reply));
+
+//		resp.setContentType("application/json; charset=utf-8");
+//		resp.getWriter().print(new Gson().toJson(Map.of("result", true, "reply", reply)));
 	}
 
 	@Override
 	protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		String uri = getURI(req);
-		Long rno = Long.valueOf(uri);
 		
-		req.setCharacterEncoding("utf-8");
-		String ret = String.join("", req.getReader().lines().toList());
-		Reply reply = new Gson().fromJson(ret, Reply.class);
+		Reply reply = JsonRespUtil.readJson(req, Reply.class);
 		new ReplyService().modify(reply);
 		
-		resp.setContentType("application/json; charset=utf-8");
-		resp.getWriter().print(new Gson().toJson(Map.of("result", true)));
+		JsonRespUtil.writeJson(resp, Map.of("result", true));
 	}
 	
 }

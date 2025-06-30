@@ -1,9 +1,7 @@
 package controller.board;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.lang.reflect.Type;
-import java.net.URLEncoder;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -21,6 +19,7 @@ import domain.dto.Criteria;
 import lombok.extern.slf4j.Slf4j;
 import service.BoardService;
 import util.AlertUtil;
+import util.ParamUtil;
 
 @Slf4j
 @WebServlet("/board/write")
@@ -56,20 +55,21 @@ public class Write extends HttpServlet{
 			AlertUtil.alert("로그인 후 작성하여주세요", "/member/login?" + cri.getQs2(), req, resp, true);
 		}
 		//파라미터 수집
-		String title = req.getParameter("title");
-		String content = req.getParameter("content");
-		String id = req.getParameter("id");
-		Integer cno = Integer.valueOf(req.getParameter("cno")); 
+//		Board b = ParamUtils.get(req, Board.class);
+//		
+//		String title = req.getParameter("title");
+//		String content = req.getParameter("content");
+//		String id = req.getParameter("id");
+//		Integer cno = Integer.valueOf(req.getParameter("cno")); 
 		
 		String encodedStr = req.getParameter("encodedStr");
 		Type type = new TypeToken<List<Attach>>() {}.getType(); 
 		List<Attach> list = new Gson().fromJson(encodedStr, type);
 		log.info("{}", list);
-		
-		
-		log.info("{} {} {} {}", title, content, id, cno);
+		Board board = ParamUtil.get(req, Board.class);
+		board.setAttachs(list);
 		//board 인스턴스 생성
-		Board board = Board.builder().title(title).content(content).id(id).cno(cno).attachs(list).build();
+//		Board board = Board.builder().title(title).content(content).id(id).cno(cno).attachs(list).build();
 		log.info("{}", board);
 		
 		//보드서비스 호출

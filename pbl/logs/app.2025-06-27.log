@@ -1,0 +1,5 @@
+11:30:57.311 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+ {executed in 15 msec}
+11:30:57.345 [main] INFO  CategoryMapperTest - Category(cno=2, cname=자유게시판, regdate=2025-06-12 17:16:17, cViewType=LIST, odr=0, status=ACTIVE)
+11:30:57.356 [main] INFO  CategoryMapperTest - Category(cno=1, cname=갤러리, regdate=2025-06-12 17:16:17, cViewType=LIST, odr=1, status=ACTIVE)
+11:30:57.356 [main] INFO  CategoryMapperTest - Category(cno=3, cname=Q&A, regdate=2025-06-12 17:16:18, cViewType=LIST, odr=2, status=ACTIVE)
