@@ -32,7 +32,7 @@ import net.coobird.thumbnailator.Thumbnails;
 	fileSizeThreshold = 1 * 1024 * 1024) // 이 크기를 넘어가면 location 위치에 buffer를 기록
 @Slf4j
 public class UploadFile extends HttpServlet{
-
+	public static final String UPLOAD_PATH = "d:/upload/files";
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		req.getRequestDispatcher("/WEB-INF/views/uploadForm.jsp").forward(req, resp);
@@ -41,7 +41,7 @@ public class UploadFile extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		Collection<Part> parts =  req.getParts();
-		final String UPLOAD_PATH = "d:/upload/files";
+		
 		List<Attach> attachs = new ArrayList<Attach>();
 		
 		int odr = 0;

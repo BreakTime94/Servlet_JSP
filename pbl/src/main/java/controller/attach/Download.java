@@ -23,7 +23,7 @@ public class Download extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//쿼리스트링 해석으로 Attach 객체 생성 
 		// 필수정보: uuid, origin, path 3가지 정보를 알아야 다운로드 처리가 가능하다 
-		final String UPLOAD_PATH = "d:/upload/files";
+		
 		String uuid = req.getParameter("uuid");
 		String origin = req.getParameter("origin");
 		String path = req.getParameter("path"); 
@@ -31,7 +31,7 @@ public class Download extends HttpServlet{
 		log.info("{} {} {}", uuid, origin, path);
 		//물리적 위치에 있는 실제파일을 origin의 네임으로 치환후 다운로드 
 		
-		File file = new File(UPLOAD_PATH + "/" + path, uuid);
+		File file = new File(UploadFile.UPLOAD_PATH + "/" + path, uuid);
 		
 		if(!file.exists()) {
 			resp.setContentType("text/html; charset=utf-8");

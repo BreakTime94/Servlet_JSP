@@ -1,263 +1,504 @@
-09:54:34.484 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:54:34.502 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:56:31.927 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:56:31.938 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:56:31.940 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-09:56:31.943 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:56:44.840 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:56:44.851 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:56:44.853 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-09:56:44.855 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-09:59:16.799 [main] INFO  ParamUtils - equals
-09:59:16.800 [main] INFO  ParamUtils - toString
-09:59:16.800 [main] INFO  ParamUtils - hashCode
-09:59:16.800 [main] INFO  ParamUtils - builder
-09:59:16.801 [main] INFO  ParamUtils - getId
-09:59:16.801 [main] INFO  ParamUtils - getContent
-09:59:16.802 [main] INFO  ParamUtils - getAttachCnt
-09:59:16.802 [main] INFO  ParamUtils - setReplyCnt
-09:59:16.802 [main] INFO  ParamUtils - getReplyCnt
-09:59:16.802 [main] INFO  ParamUtils - setAttachCnt
-09:59:16.802 [main] INFO  ParamUtils - setModdate
-09:59:16.802 [main] INFO  ParamUtils - getBno
-09:59:16.802 [main] INFO  ParamUtils - getCno
-09:59:16.803 [main] INFO  ParamUtils - setTitle
-09:59:16.803 [main] INFO  ParamUtils - setCnt
-09:59:16.803 [main] INFO  ParamUtils - getRegdate
-09:59:16.803 [main] INFO  ParamUtils - setContent
-09:59:16.803 [main] INFO  ParamUtils - setAttachs
-09:59:16.803 [main] INFO  ParamUtils - getTitle
-09:59:16.803 [main] INFO  ParamUtils - setBno
-09:59:16.804 [main] INFO  ParamUtils - getModdate
-09:59:16.804 [main] INFO  ParamUtils - setRegdate
-09:59:16.804 [main] INFO  ParamUtils - getAttachs
-09:59:16.804 [main] INFO  ParamUtils - setId
-09:59:16.804 [main] INFO  ParamUtils - setCno
-09:59:16.804 [main] INFO  ParamUtils - getCnt
-09:59:16.804 [main] INFO  ParamUtils - getClass
-09:59:16.804 [main] INFO  ParamUtils - notify
-09:59:16.805 [main] INFO  ParamUtils - notifyAll
-09:59:16.805 [main] INFO  ParamUtils - wait
-09:59:16.805 [main] INFO  ParamUtils - wait
-09:59:16.805 [main] INFO  ParamUtils - wait
-09:59:16.805 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:59:16.818 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:59:16.821 [main] INFO  ParamUtils - equals
-09:59:16.821 [main] INFO  ParamUtils - toString
-09:59:16.821 [main] INFO  ParamUtils - hashCode
-09:59:16.821 [main] INFO  ParamUtils - builder
-09:59:16.821 [main] INFO  ParamUtils - getId
-09:59:16.821 [main] INFO  ParamUtils - getContent
-09:59:16.822 [main] INFO  ParamUtils - getBno
-09:59:16.822 [main] INFO  ParamUtils - getRegdate
-09:59:16.822 [main] INFO  ParamUtils - setContent
-09:59:16.822 [main] INFO  ParamUtils - setBno
-09:59:16.822 [main] INFO  ParamUtils - setRegdate
-09:59:16.822 [main] INFO  ParamUtils - setId
-09:59:16.822 [main] INFO  ParamUtils - setRno
-09:59:16.822 [main] INFO  ParamUtils - getRno
-09:59:16.822 [main] INFO  ParamUtils - getClass
-09:59:16.823 [main] INFO  ParamUtils - notify
-09:59:16.823 [main] INFO  ParamUtils - notifyAll
-09:59:16.823 [main] INFO  ParamUtils - wait
-09:59:16.823 [main] INFO  ParamUtils - wait
-09:59:16.823 [main] INFO  ParamUtils - wait
-09:59:16.823 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-09:59:16.826 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-09:59:52.640 [main] INFO  ParamUtils - equals
-09:59:52.642 [main] INFO  ParamUtils - toString
-09:59:52.642 [main] INFO  ParamUtils - hashCode
-09:59:52.642 [main] INFO  ParamUtils - builder
-09:59:52.642 [main] INFO  ParamUtils - getId
-09:59:52.643 [main] INFO  ParamUtils - getContent
-09:59:52.643 [main] INFO  ParamUtils - setContent
-09:59:52.643 [main] INFO  ParamUtils - getAttachs
-09:59:52.643 [main] INFO  ParamUtils - getTitle
-09:59:52.643 [main] INFO  ParamUtils - setModdate
-09:59:52.643 [main] INFO  ParamUtils - setId
-09:59:52.643 [main] INFO  ParamUtils - canEqual
-09:59:52.643 [main] INFO  ParamUtils - getCnt
-09:59:52.643 [main] INFO  ParamUtils - setTitle
-09:59:52.643 [main] INFO  ParamUtils - setCno
-09:59:52.643 [main] INFO  ParamUtils - setRegdate
-09:59:52.644 [main] INFO  ParamUtils - setBno
-09:59:52.644 [main] INFO  ParamUtils - setAttachs
-09:59:52.644 [main] INFO  ParamUtils - getModdate
-09:59:52.644 [main] INFO  ParamUtils - getCno
-09:59:52.644 [main] INFO  ParamUtils - getBno
-09:59:52.644 [main] INFO  ParamUtils - getRegdate
-09:59:52.644 [main] INFO  ParamUtils - setCnt
-09:59:52.644 [main] INFO  ParamUtils - $default$attachs
-09:59:52.645 [main] INFO  ParamUtils - setReplyCnt
-09:59:52.645 [main] INFO  ParamUtils - setAttachCnt
-09:59:52.645 [main] INFO  ParamUtils - getAttachCnt
-09:59:52.645 [main] INFO  ParamUtils - getReplyCnt
-09:59:52.645 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:59:52.659 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-09:59:52.660 [main] INFO  ParamUtils - equals
-09:59:52.660 [main] INFO  ParamUtils - toString
-09:59:52.661 [main] INFO  ParamUtils - hashCode
-09:59:52.661 [main] INFO  ParamUtils - builder
-09:59:52.661 [main] INFO  ParamUtils - getId
-09:59:52.661 [main] INFO  ParamUtils - getContent
-09:59:52.661 [main] INFO  ParamUtils - setContent
-09:59:52.661 [main] INFO  ParamUtils - setId
-09:59:52.661 [main] INFO  ParamUtils - canEqual
-09:59:52.661 [main] INFO  ParamUtils - setRegdate
-09:59:52.661 [main] INFO  ParamUtils - setBno
-09:59:52.661 [main] INFO  ParamUtils - getBno
-09:59:52.661 [main] INFO  ParamUtils - getRegdate
-09:59:52.662 [main] INFO  ParamUtils - getRno
-09:59:52.662 [main] INFO  ParamUtils - setRno
-09:59:52.662 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-09:59:52.665 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-10:00:17.565 [main] INFO  ParamUtils - setId
-10:00:17.566 [main] INFO  ParamUtils - setCno
-10:00:17.566 [main] INFO  ParamUtils - getCnt
-10:00:17.567 [main] INFO  ParamUtils - getRegdate
-10:00:17.567 [main] INFO  ParamUtils - getModdate
-10:00:17.567 [main] INFO  ParamUtils - setModdate
-10:00:17.567 [main] INFO  ParamUtils - setTitle
-10:00:17.567 [main] INFO  ParamUtils - setBno
-10:00:17.567 [main] INFO  ParamUtils - setContent
-10:00:17.567 [main] INFO  ParamUtils - getCno
-10:00:17.567 [main] INFO  ParamUtils - setRegdate
-10:00:17.567 [main] INFO  ParamUtils - getTitle
-10:00:17.567 [main] INFO  ParamUtils - getBno
-10:00:17.567 [main] INFO  ParamUtils - setCnt
-10:00:17.567 [main] INFO  ParamUtils - canEqual
-10:00:17.567 [main] INFO  ParamUtils - getAttachs
-10:00:17.567 [main] INFO  ParamUtils - setAttachs
-10:00:17.567 [main] INFO  ParamUtils - $default$attachs
-10:00:17.568 [main] INFO  ParamUtils - getReplyCnt
-10:00:17.568 [main] INFO  ParamUtils - getAttachCnt
-10:00:17.568 [main] INFO  ParamUtils - setReplyCnt
-10:00:17.568 [main] INFO  ParamUtils - setAttachCnt
-10:00:17.568 [main] INFO  ParamUtils - equals
-10:00:17.568 [main] INFO  ParamUtils - toString
-10:00:17.568 [main] INFO  ParamUtils - hashCode
-10:00:17.568 [main] INFO  ParamUtils - builder
-10:00:17.568 [main] INFO  ParamUtils - getId
-10:00:17.568 [main] INFO  ParamUtils - getContent
-10:00:17.568 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-10:00:17.579 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-10:00:17.580 [main] INFO  ParamUtils - setId
-10:00:17.580 [main] INFO  ParamUtils - getRegdate
-10:00:17.580 [main] INFO  ParamUtils - setBno
-10:00:17.580 [main] INFO  ParamUtils - setContent
-10:00:17.580 [main] INFO  ParamUtils - setRegdate
-10:00:17.580 [main] INFO  ParamUtils - getBno
-10:00:17.580 [main] INFO  ParamUtils - canEqual
-10:00:17.581 [main] INFO  ParamUtils - getRno
-10:00:17.581 [main] INFO  ParamUtils - setRno
-10:00:17.581 [main] INFO  ParamUtils - equals
-10:00:17.581 [main] INFO  ParamUtils - toString
-10:00:17.581 [main] INFO  ParamUtils - hashCode
-10:00:17.581 [main] INFO  ParamUtils - builder
-10:00:17.581 [main] INFO  ParamUtils - getId
-10:00:17.581 [main] INFO  ParamUtils - getContent
-10:00:17.581 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-10:00:17.584 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-10:01:43.354 [main] INFO  ParamUtils - equals
-10:01:43.356 [main] INFO  ParamUtils - toString
-10:01:43.356 [main] INFO  ParamUtils - hashCode
-10:01:43.356 [main] INFO  ParamUtils - builder
-10:01:43.356 [main] INFO  ParamUtils - getId
-10:01:43.356 [main] INFO  ParamUtils - getContent
-10:01:43.356 [main] INFO  ParamUtils - setBno
-10:01:43.357 [main] INFO  ParamUtils - getModdate
-10:01:43.357 [main] INFO  ParamUtils - setModdate
-10:01:43.357 [main] INFO  ParamUtils - setCnt
-10:01:43.357 [main] INFO  ParamUtils - setContent
-10:01:43.357 [main] INFO  ParamUtils - getBno
-10:01:43.357 [main] INFO  ParamUtils - setTitle
-10:01:43.357 [main] INFO  ParamUtils - getCno
-10:01:43.357 [main] INFO  ParamUtils - setAttachs
-10:01:43.357 [main] INFO  ParamUtils - setCno
-10:01:43.357 [main] INFO  ParamUtils - getTitle
-10:01:43.357 [main] INFO  ParamUtils - setId
-10:01:43.357 [main] INFO  ParamUtils - getAttachs
-10:01:43.357 [main] INFO  ParamUtils - canEqual
-10:01:43.357 [main] INFO  ParamUtils - getRegdate
-10:01:43.357 [main] INFO  ParamUtils - setRegdate
-10:01:43.358 [main] INFO  ParamUtils - getCnt
-10:01:43.358 [main] INFO  ParamUtils - setAttachCnt
-10:01:43.358 [main] INFO  ParamUtils - $default$attachs
-10:01:43.358 [main] INFO  ParamUtils - getAttachCnt
-10:01:43.358 [main] INFO  ParamUtils - getReplyCnt
-10:01:43.358 [main] INFO  ParamUtils - setReplyCnt
-10:01:43.358 [main] INFO  ParamUtils - Board(bno=100, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-10:01:43.371 [main] INFO  ParamUtils - Board(bno=100, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-10:01:43.372 [main] INFO  ParamUtils - equals
-10:01:43.373 [main] INFO  ParamUtils - toString
-10:01:43.373 [main] INFO  ParamUtils - hashCode
-10:01:43.373 [main] INFO  ParamUtils - builder
-10:01:43.373 [main] INFO  ParamUtils - getId
-10:01:43.373 [main] INFO  ParamUtils - getContent
-10:01:43.373 [main] INFO  ParamUtils - setBno
-10:01:43.373 [main] INFO  ParamUtils - setContent
-10:01:43.374 [main] INFO  ParamUtils - getBno
-10:01:43.374 [main] INFO  ParamUtils - setId
-10:01:43.374 [main] INFO  ParamUtils - canEqual
-10:01:43.374 [main] INFO  ParamUtils - getRegdate
-10:01:43.374 [main] INFO  ParamUtils - setRegdate
-10:01:43.374 [main] INFO  ParamUtils - getRno
-10:01:43.374 [main] INFO  ParamUtils - setRno
-10:01:43.374 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=100)
-10:01:43.377 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=100)
-10:04:52.613 [main] INFO  ParamUtils - class java.lang.Long bno
-10:04:52.616 [main] INFO  ParamUtils - class java.lang.String title
-10:04:52.616 [main] INFO  ParamUtils - class java.lang.String content
-10:04:52.616 [main] INFO  ParamUtils - class java.lang.String id
-10:04:52.616 [main] INFO  ParamUtils - class java.lang.String regdate
-10:04:52.616 [main] INFO  ParamUtils - class java.lang.String moddate
-10:04:52.616 [main] INFO  ParamUtils - class java.lang.Integer cnt
-10:04:52.616 [main] INFO  ParamUtils - class java.lang.Integer cno
-10:04:52.617 [main] INFO  ParamUtils - int replyCnt
-10:04:52.617 [main] INFO  ParamUtils - int attachCnt
-10:04:52.617 [main] INFO  ParamUtils - interface java.util.List attachs
-10:04:52.617 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-10:04:52.628 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-10:04:52.629 [main] INFO  ParamUtils - class java.lang.Long rno
-10:04:52.629 [main] INFO  ParamUtils - class java.lang.String content
-10:04:52.630 [main] INFO  ParamUtils - class java.lang.String id
-10:04:52.630 [main] INFO  ParamUtils - class java.lang.String regdate
-10:04:52.630 [main] INFO  ParamUtils - class java.lang.Long bno
-10:04:52.630 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-10:04:52.633 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
-10:05:47.109 [main] INFO  ParamUtils - class java.lang.Long bno
-10:05:47.112 [main] INFO  ParamUtils - class java.lang.String title
-10:05:47.112 [main] INFO  ParamUtils - class java.lang.String content
-10:05:47.112 [main] INFO  ParamUtils - class java.lang.String id
-10:05:47.112 [main] INFO  ParamUtils - class java.lang.String regdate
-10:05:47.112 [main] INFO  ParamUtils - class java.lang.String moddate
-10:05:47.113 [main] INFO  ParamUtils - class java.lang.Integer cnt
-10:05:47.113 [main] INFO  ParamUtils - class java.lang.Integer cno
-10:05:47.113 [main] INFO  ParamUtils - int replyCnt
-10:05:47.113 [main] INFO  ParamUtils - int attachCnt
-10:05:47.113 [main] INFO  ParamUtils - interface java.util.List attachs
-10:05:47.113 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-10:05:47.122 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
-10:06:51.935 [main] INFO  ParamUtils - class java.lang.Long bno
-10:06:51.938 [main] INFO  ParamUtils - null
-15:00:49.168 [main] INFO  sqltiming - select *, a.bno a_bno, (select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
-		from tbl_board b
-		left join tbl_attach a using(bno)
-		where bno = 165
-		order by odr
- {executed in 18 msec}
-15:00:49.197 [main] INFO  sqltiming - select coalesce(max(seq), 1) from tbl_board b
-		where grp = 165 
-		and seq >= 1 
-		and depth >= 1 
-		and not exists (
-			select 1
-			from tbl_board mid
-			where grp = b.grp
-			and seq >= 1 
-			and seq < b.seq 
-			and depth <= 1
-		)
- {executed in 5 msec}
-15:00:49.199 [main] INFO  BoardMapperTest - Board(bno=165, title=무난한 글 작성, content=<p>무난한 내용 작성</p>
-, id=sae, regdate=2025-06-30 14:33:33, moddate=2025-06-30 14:33:33, cnt=2, cno=2, replyCnt=0, attachCnt=0, grp=165, seq=1, depth=1, attachs=[]) 1
+09:55:21.799 [main] INFO  StdSchedulerFactory - Using default implementation for ThreadExecutor
+09:55:21.811 [main] INFO  SimpleThreadPool - Job execution threads will use class loader of thread: main
+09:55:21.831 [main] INFO  SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+09:55:21.834 [main] INFO  QuartzScheduler - Quartz Scheduler v2.5.0 created.
+09:55:21.836 [main] INFO  RAMJobStore - RAMJobStore initialized.
+09:55:21.837 [main] INFO  QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+09:55:21.837 [main] INFO  StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+09:55:21.837 [main] INFO  StdSchedulerFactory - Quartz scheduler version: 2.5.0
+09:55:21.858 [main] INFO  QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+09:55:25.014 [DefaultQuartzScheduler_Worker-1] INFO  TimerJob - Tue Jul 01 09:55:25 KST 2025
+09:55:30.002 [DefaultQuartzScheduler_Worker-2] INFO  TimerJob - Tue Jul 01 09:55:30 KST 2025
+09:55:35.003 [DefaultQuartzScheduler_Worker-3] INFO  TimerJob - Tue Jul 01 09:55:35 KST 2025
+09:55:40.002 [DefaultQuartzScheduler_Worker-4] INFO  TimerJob - Tue Jul 01 09:55:40 KST 2025
+09:55:45.002 [DefaultQuartzScheduler_Worker-5] INFO  TimerJob - Tue Jul 01 09:55:45 KST 2025
+09:55:50.001 [DefaultQuartzScheduler_Worker-6] INFO  TimerJob - Tue Jul 01 09:55:50 KST 2025
+09:55:55.002 [DefaultQuartzScheduler_Worker-7] INFO  TimerJob - Tue Jul 01 09:55:55 KST 2025
+09:56:00.000 [DefaultQuartzScheduler_Worker-8] INFO  TimerJob - Tue Jul 01 09:56:00 KST 2025
+09:56:05.002 [DefaultQuartzScheduler_Worker-9] INFO  TimerJob - Tue Jul 01 09:56:05 KST 2025
+09:56:10.000 [DefaultQuartzScheduler_Worker-10] INFO  TimerJob - Tue Jul 01 09:56:10 KST 2025
+09:56:15.002 [DefaultQuartzScheduler_Worker-1] INFO  TimerJob - Tue Jul 01 09:56:15 KST 2025
+09:56:20.001 [DefaultQuartzScheduler_Worker-2] INFO  TimerJob - Tue Jul 01 09:56:20 KST 2025
+09:56:21.865 [main] INFO  QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+09:56:21.866 [main] INFO  QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+09:56:21.868 [main] INFO  QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:05:24.222 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30
+10:13:33.144 [main] INFO  GhostFileCleanupJob - 2025/07/01
+10:13:33.146 [main] INFO  GhostFileCleanupJob - 
+10:14:02.668 [main] INFO  GhostFileCleanupJob - Tue Jul 01 10:14:02 KST 2025
+10:14:02.679 [main] INFO  GhostFileCleanupJob - 2025/07/01
+10:14:02.680 [main] INFO  GhostFileCleanupJob - 
+10:15:38.903 [main] INFO  GhostFileCleanupJob - 1751246138902
+10:15:38.905 [main] INFO  GhostFileCleanupJob - 2025/07/01
+10:15:38.906 [main] INFO  GhostFileCleanupJob - 
+10:16:23.469 [main] INFO  GhostFileCleanupJob - 1751246183468
+10:16:23.471 [main] INFO  GhostFileCleanupJob - 2025/06/30
+10:16:23.472 [main] INFO  GhostFileCleanupJob - 
+10:17:05.200 [main] INFO  GhostFileCleanupJob - 1751246225199
+10:17:05.203 [main] INFO  GhostFileCleanupJob - 2025/06/30
+10:17:05.203 [main] INFO  GhostFileCleanupJob - 2025\06\30
+10:18:42.508 [main] INFO  GhostFileCleanupJob - 1751246322506
+10:18:42.510 [main] INFO  GhostFileCleanupJob - 2025/06/30
+10:18:42.511 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30
+10:19:56.896 [main] INFO  GhostFileCleanupJob - 1751246396895
+10:19:56.899 [main] INFO  GhostFileCleanupJob - 2025/06/30
+10:19:56.900 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30
+10:42:11.401 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+10:42:11.404 [main] INFO  GhostFileCleanupJob - [2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, 3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, 3a28a9d1-301e-491d-a123-590c3a015f5b.gif, 70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, 92533e30-aab4-4934-ac20-f35bd608b151.jpg, ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, b217ac4c-6b50-4255-ba08-744bc3956991.bmp, b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif, t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, t_92533e30-aab4-4934-ac20-f35bd608b151.jpg, t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, t_e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif]
+10:44:51.959 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+10:44:51.962 [main] INFO  GhostFileCleanupJob - [2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, 3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, 3a28a9d1-301e-491d-a123-590c3a015f5b.gif, 70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, 92533e30-aab4-4934-ac20-f35bd608b151.jpg, ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, b217ac4c-6b50-4255-ba08-744bc3956991.bmp, b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif, t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, t_92533e30-aab4-4934-ac20-f35bd608b151.jpg, t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, t_e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif]
+10:44:51.962 [main] INFO  GhostFileCleanupJob - [a.txt]
+10:47:56.890 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+10:47:56.894 [main] INFO  GhostFileCleanupJob - [2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, 3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, 3a28a9d1-301e-491d-a123-590c3a015f5b.gif, 70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, 92533e30-aab4-4934-ac20-f35bd608b151.jpg, ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, b217ac4c-6b50-4255-ba08-744bc3956991.bmp, b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif, t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, t_92533e30-aab4-4934-ac20-f35bd608b151.jpg, t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, t_e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif]
+10:47:56.895 [main] INFO  GhostFileCleanupJob - [a.txt]
+10:47:56.895 [main] INFO  GhostFileCleanupJob - [b.txt]
+10:59:53.790 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+10:59:53.792 [main] INFO  GhostFileCleanupJob - [2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, 3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, 3a28a9d1-301e-491d-a123-590c3a015f5b.gif, 70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, 92533e30-aab4-4934-ac20-f35bd608b151.jpg, ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, b217ac4c-6b50-4255-ba08-744bc3956991.bmp, b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif, t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, t_92533e30-aab4-4934-ac20-f35bd608b151.jpg, t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, t_e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif]
+10:59:53.793 [main] INFO  GhostFileCleanupJob - [a.txt]
+10:59:53.793 [main] INFO  GhostFileCleanupJob - [10\a.txt, b.txt]
+11:01:03.899 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+11:01:03.901 [main] INFO  GhostFileCleanupJob - [d:\upload\files\2025\06\30\2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, d:\upload\files\2025\06\30\3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, d:\upload\files\2025\06\30\3a28a9d1-301e-491d-a123-590c3a015f5b.gif, d:\upload\files\2025\06\30\70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, d:\upload\files\2025\06\30\92533e30-aab4-4934-ac20-f35bd608b151.jpg, d:\upload\files\2025\06\30\ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, d:\upload\files\2025\06\30\b217ac4c-6b50-4255-ba08-744bc3956991.bmp, d:\upload\files\2025\06\30\b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, d:\upload\files\2025\06\30\e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif, d:\upload\files\2025\06\30\t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, d:\upload\files\2025\06\30\t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, d:\upload\files\2025\06\30\t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, d:\upload\files\2025\06\30\t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, d:\upload\files\2025\06\30\t_92533e30-aab4-4934-ac20-f35bd608b151.jpg, d:\upload\files\2025\06\30\t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, d:\upload\files\2025\06\30\t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, d:\upload\files\2025\06\30\t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, d:\upload\files\2025\06\30\t_e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif]
+11:01:03.902 [main] INFO  GhostFileCleanupJob - [a.txt]
+11:01:03.902 [main] INFO  GhostFileCleanupJob - [b.txt]
+11:13:35.823 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+11:14:18.384 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+11:20:13.206 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+11:20:13.806 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d')
+ {executed in 9 msec}
+11:20:13.834 [main] INFO  GhostFileCleanupJob - [d:\upload\files\2025\06\30\92533e30-aab4-4934-ac20-f35bd608b151.jpg, d:\upload\files\2025\06\30\e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif, d:\upload\files\2025\06\30\t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, d:\upload\files\2025\06\30\t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, d:\upload\files\2025\06\30\t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, d:\upload\files\2025\06\30\t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, d:\upload\files\2025\06\30\t_87362583-b323-4a34-a5fb-928c999f8b46.gif, d:\upload\files\2025\06\30\t_92533e30-aab4-4934-ac20-f35bd608b151.jpg, d:\upload\files\2025\06\30\t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, d:\upload\files\2025\06\30\t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, d:\upload\files\2025\06\30\t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, d:\upload\files\2025\06\30\t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, d:\upload\files\2025\06\30\t_e839ad0a-4389-46a0-8acc-e33133ea7d7d.gif, d:\upload\files\2025\06\30\t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp]
+11:43:58.661 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d')
+ {executed in 6 msec}
+11:43:58.687 [main] INFO  GhostFileCleanupJob - [Attach(uuid=2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670), Attach(uuid=3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717), Attach(uuid=3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717), Attach(uuid=70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494), Attach(uuid=87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717), Attach(uuid=ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670), Attach(uuid=b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122), Attach(uuid=b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494), Attach(uuid=d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494), Attach(uuid=e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)]
+11:46:49.773 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d')
+ {executed in 6 msec}
+11:46:49.795 [main] INFO  GhostFileCleanupJob - [Attach(uuid=2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670), Attach(uuid=3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717), Attach(uuid=3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717), Attach(uuid=70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494), Attach(uuid=87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717), Attach(uuid=ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670), Attach(uuid=b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122), Attach(uuid=b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494), Attach(uuid=d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494), Attach(uuid=e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)]
+11:59:43.404 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+11:59:44.007 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d')
+ {executed in 7 msec}
+11:59:44.043 [main] INFO  GhostFileCleanupJob - [d:\upload\files\2025\06\30\0b15c40b-ffd4-4f11-af51-318cbbc4ced9.pdf, d:\upload\files\2025\06\30\1fe909b1-0524-47f6-bd8d-3c031033e17b.pdf, d:\upload\files\2025\06\30\2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, d:\upload\files\2025\06\30\3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, d:\upload\files\2025\06\30\38175561-372c-4b3d-8a6e-aba98ff19484.gif, d:\upload\files\2025\06\30\3a28a9d1-301e-491d-a123-590c3a015f5b.gif, d:\upload\files\2025\06\30\70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, d:\upload\files\2025\06\30\7c4739f4-06e4-4bc3-b2b2-97946f4017a7.jpg, d:\upload\files\2025\06\30\87362583-b323-4a34-a5fb-928c999f8b46.gif, d:\upload\files\2025\06\30\9a0ab29b-8340-4832-9399-354ced316c24.gif, d:\upload\files\2025\06\30\ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, d:\upload\files\2025\06\30\b217ac4c-6b50-4255-ba08-744bc3956991.bmp, d:\upload\files\2025\06\30\b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, d:\upload\files\2025\06\30\c17a85ca-15e2-48f4-9d54-d911861c82c1.txt, d:\upload\files\2025\06\30\d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, d:\upload\files\2025\06\30\d5ec6a90-c2f2-4398-b6df-ba0ee95fcbeb.bmp, d:\upload\files\2025\06\30\e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, d:\upload\files\2025\06\30\t_38175561-372c-4b3d-8a6e-aba98ff19484.gif, d:\upload\files\2025\06\30\t_7c4739f4-06e4-4bc3-b2b2-97946f4017a7.jpg, d:\upload\files\2025\06\30\t_9a0ab29b-8340-4832-9399-354ced316c24.gif, d:\upload\files\2025\06\30\t_d5ec6a90-c2f2-4398-b6df-ba0ee95fcbeb.bmp]
+12:06:05.146 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+12:06:05.749 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d')
+ {executed in 6 msec}
+12:06:05.772 [main] INFO  GhostFileCleanupJob - attachs :: [Attach(uuid=2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670), Attach(uuid=3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717), Attach(uuid=354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122), Attach(uuid=3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717), Attach(uuid=70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494), Attach(uuid=793f79c7-78f5-42b5-a50c-77528740dccd.pdf, path=2025/06/30, image=false, origin=codeFestival_js_2.pdf, bno=179, rno=null, odr=1, size=4720944), Attach(uuid=87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717), Attach(uuid=89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717), Attach(uuid=ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670), Attach(uuid=b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122), Attach(uuid=b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494), Attach(uuid=d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494), Attach(uuid=e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)]
+12:06:05.785 [main] INFO  GhostFileCleanupJob - thumbs :: [Attach(uuid=t2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670), Attach(uuid=t3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717), Attach(uuid=t354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122), Attach(uuid=t3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717), Attach(uuid=t70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494), Attach(uuid=t87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717), Attach(uuid=t89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717), Attach(uuid=tad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670), Attach(uuid=tb217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122), Attach(uuid=tb6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494), Attach(uuid=td53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494), Attach(uuid=te8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)]
+12:06:05.785 [main] INFO  GhostFileCleanupJob - attachs :: [Attach(uuid=t2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670), Attach(uuid=t3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717), Attach(uuid=t354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122), Attach(uuid=t3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717), Attach(uuid=t70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494), Attach(uuid=793f79c7-78f5-42b5-a50c-77528740dccd.pdf, path=2025/06/30, image=false, origin=codeFestival_js_2.pdf, bno=179, rno=null, odr=1, size=4720944), Attach(uuid=t87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717), Attach(uuid=t89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717), Attach(uuid=tad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670), Attach(uuid=tb217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122), Attach(uuid=tb6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494), Attach(uuid=td53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494), Attach(uuid=te8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122), Attach(uuid=t2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670), Attach(uuid=t3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717), Attach(uuid=t354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122), Attach(uuid=t3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717), Attach(uuid=t70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494), Attach(uuid=t87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717), Attach(uuid=t89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717), Attach(uuid=tad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670), Attach(uuid=tb217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122), Attach(uuid=tb6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494), Attach(uuid=td53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494), Attach(uuid=te8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)]
+12:06:05.787 [main] INFO  GhostFileCleanupJob - attachs :: [d:\upload\files\2025\06\30\t2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, d:\upload\files\2025\06\30\t3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, d:\upload\files\2025\06\30\t354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, d:\upload\files\2025\06\30\t3a28a9d1-301e-491d-a123-590c3a015f5b.gif, d:\upload\files\2025\06\30\t70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, d:\upload\files\2025\06\30\793f79c7-78f5-42b5-a50c-77528740dccd.pdf, d:\upload\files\2025\06\30\t87362583-b323-4a34-a5fb-928c999f8b46.gif, d:\upload\files\2025\06\30\t89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, d:\upload\files\2025\06\30\tad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, d:\upload\files\2025\06\30\tb217ac4c-6b50-4255-ba08-744bc3956991.bmp, d:\upload\files\2025\06\30\tb6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, d:\upload\files\2025\06\30\td53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, d:\upload\files\2025\06\30\te8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, d:\upload\files\2025\06\30\t2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, d:\upload\files\2025\06\30\t3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, d:\upload\files\2025\06\30\t354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, d:\upload\files\2025\06\30\t3a28a9d1-301e-491d-a123-590c3a015f5b.gif, d:\upload\files\2025\06\30\t70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, d:\upload\files\2025\06\30\t87362583-b323-4a34-a5fb-928c999f8b46.gif, d:\upload\files\2025\06\30\t89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, d:\upload\files\2025\06\30\tad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, d:\upload\files\2025\06\30\tb217ac4c-6b50-4255-ba08-744bc3956991.bmp, d:\upload\files\2025\06\30\tb6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, d:\upload\files\2025\06\30\td53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, d:\upload\files\2025\06\30\te8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp]
+12:06:05.798 [main] INFO  GhostFileCleanupJob - [d:\upload\files\2025\06\30\14fcfe32-37de-4c3a-84f9-e5adb79f492e.pdf, d:\upload\files\2025\06\30\354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, d:\upload\files\2025\06\30\706fd79d-3f89-457a-9e7e-342bab522fc6.png, d:\upload\files\2025\06\30\80410e2f-0e23-4aa4-b3ec-5e03c5cb9faf.pdf, d:\upload\files\2025\06\30\89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, d:\upload\files\2025\06\30\b8791175-f645-463a-acd0-9d98694481b4.gif, d:\upload\files\2025\06\30\dc6e63d9-ff0f-464a-a4ea-4b304741a77e.jpg, d:\upload\files\2025\06\30\t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, d:\upload\files\2025\06\30\t_706fd79d-3f89-457a-9e7e-342bab522fc6.png, d:\upload\files\2025\06\30\t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, d:\upload\files\2025\06\30\t_b8791175-f645-463a-acd0-9d98694481b4.gif, d:\upload\files\2025\06\30\t_dc6e63d9-ff0f-464a-a4ea-4b304741a77e.jpg]
+12:06:05.801 [main] INFO  GhostFileCleanupJob - [d:\upload\files\2025\06\30\14fcfe32-37de-4c3a-84f9-e5adb79f492e.pdf, d:\upload\files\2025\06\30\354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, d:\upload\files\2025\06\30\706fd79d-3f89-457a-9e7e-342bab522fc6.png, d:\upload\files\2025\06\30\80410e2f-0e23-4aa4-b3ec-5e03c5cb9faf.pdf, d:\upload\files\2025\06\30\89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, d:\upload\files\2025\06\30\b8791175-f645-463a-acd0-9d98694481b4.gif, d:\upload\files\2025\06\30\dc6e63d9-ff0f-464a-a4ea-4b304741a77e.jpg, d:\upload\files\2025\06\30\t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, d:\upload\files\2025\06\30\t_706fd79d-3f89-457a-9e7e-342bab522fc6.png, d:\upload\files\2025\06\30\t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, d:\upload\files\2025\06\30\t_b8791175-f645-463a-acd0-9d98694481b4.gif, d:\upload\files\2025\06\30\t_dc6e63d9-ff0f-464a-a4ea-4b304741a77e.jpg]
+12:14:08.959 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+12:14:09.542 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d')
+ {executed in 6 msec}
+12:14:09.563 [main] INFO  GhostFileCleanupJob - Attach(uuid=2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:14:09.573 [main] INFO  GhostFileCleanupJob - Attach(uuid=3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:14:09.573 [main] INFO  GhostFileCleanupJob - Attach(uuid=354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:14:09.574 [main] INFO  GhostFileCleanupJob - Attach(uuid=3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:14:09.574 [main] INFO  GhostFileCleanupJob - Attach(uuid=6d5b3907-98e8-469e-8d58-35b1779b8d6a.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=180, rno=null, odr=3, size=1224494)
+12:14:09.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:14:09.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=793f79c7-78f5-42b5-a50c-77528740dccd.pdf, path=2025/06/30, image=false, origin=codeFestival_js_2.pdf, bno=179, rno=null, odr=1, size=4720944)
+12:14:09.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:14:09.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:14:09.576 [main] INFO  GhostFileCleanupJob - Attach(uuid=90c262d7-3121-42c2-be5a-67c6a7da0c6f.webp, path=2025/06/30, image=false, origin=sample-1.webp, bno=180, rno=null, odr=1, size=361666)
+12:14:09.576 [main] INFO  GhostFileCleanupJob - Attach(uuid=ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:14:09.576 [main] INFO  GhostFileCleanupJob - Attach(uuid=b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:14:09.576 [main] INFO  GhostFileCleanupJob - Attach(uuid=b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:14:09.576 [main] INFO  GhostFileCleanupJob - Attach(uuid=d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:14:09.577 [main] INFO  GhostFileCleanupJob - Attach(uuid=de9930a7-98f3-46bd-ac63-eabd1ef7cc44.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=180, rno=null, odr=2, size=705670)
+12:14:09.577 [main] INFO  GhostFileCleanupJob - Attach(uuid=e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:14:09.578 [main] INFO  GhostFileCleanupJob - Attach(uuid=f023536e-e43c-4e38-86bd-963f10906034.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=180, rno=null, odr=0, size=13717)
+12:14:09.580 [main] INFO  GhostFileCleanupJob - thumbs :: [Attach(uuid=t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670), Attach(uuid=t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717), Attach(uuid=t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=null, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122), Attach(uuid=t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717), Attach(uuid=t_6d5b3907-98e8-469e-8d58-35b1779b8d6a.jpg, path=null, image=true, origin=새똥이.jpg, bno=180, rno=null, odr=3, size=1224494), Attach(uuid=t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=null, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494), Attach(uuid=t_87362583-b323-4a34-a5fb-928c999f8b46.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717), Attach(uuid=t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717), Attach(uuid=t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670), Attach(uuid=t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=null, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122), Attach(uuid=t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=null, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494), Attach(uuid=t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=null, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494), Attach(uuid=t_de9930a7-98f3-46bd-ac63-eabd1ef7cc44.png, path=null, image=true, origin=sample-boat-400x300.png, bno=180, rno=null, odr=2, size=705670), Attach(uuid=t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=null, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122), Attach(uuid=t_f023536e-e43c-4e38-86bd-963f10906034.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=180, rno=null, odr=0, size=13717)]
+12:14:09.581 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:14:09.581 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:14:09.582 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=null, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:14:09.582 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:14:09.582 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_6d5b3907-98e8-469e-8d58-35b1779b8d6a.jpg, path=null, image=true, origin=새똥이.jpg, bno=180, rno=null, odr=3, size=1224494)
+12:14:09.582 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=null, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:14:09.582 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_87362583-b323-4a34-a5fb-928c999f8b46.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:14:09.583 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:14:09.583 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:14:09.584 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=null, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:14:09.585 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=null, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:14:09.586 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=null, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:14:09.586 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_de9930a7-98f3-46bd-ac63-eabd1ef7cc44.png, path=null, image=true, origin=sample-boat-400x300.png, bno=180, rno=null, odr=2, size=705670)
+12:14:09.586 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=null, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:14:09.586 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_f023536e-e43c-4e38-86bd-963f10906034.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=180, rno=null, odr=0, size=13717)
+12:14:09.587 [main] INFO  GhostFileCleanupJob - Attach(uuid=2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:14:09.588 [main] INFO  GhostFileCleanupJob - Attach(uuid=3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:14:09.588 [main] INFO  GhostFileCleanupJob - Attach(uuid=354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:14:09.588 [main] INFO  GhostFileCleanupJob - Attach(uuid=3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:14:09.588 [main] INFO  GhostFileCleanupJob - Attach(uuid=6d5b3907-98e8-469e-8d58-35b1779b8d6a.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=180, rno=null, odr=3, size=1224494)
+12:14:09.588 [main] INFO  GhostFileCleanupJob - Attach(uuid=70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:14:09.589 [main] INFO  GhostFileCleanupJob - Attach(uuid=793f79c7-78f5-42b5-a50c-77528740dccd.pdf, path=2025/06/30, image=false, origin=codeFestival_js_2.pdf, bno=179, rno=null, odr=1, size=4720944)
+12:14:09.589 [main] INFO  GhostFileCleanupJob - Attach(uuid=87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:14:09.589 [main] INFO  GhostFileCleanupJob - Attach(uuid=89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:14:09.589 [main] INFO  GhostFileCleanupJob - Attach(uuid=90c262d7-3121-42c2-be5a-67c6a7da0c6f.webp, path=2025/06/30, image=false, origin=sample-1.webp, bno=180, rno=null, odr=1, size=361666)
+12:14:09.589 [main] INFO  GhostFileCleanupJob - Attach(uuid=ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:14:09.589 [main] INFO  GhostFileCleanupJob - Attach(uuid=b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:14:09.589 [main] INFO  GhostFileCleanupJob - Attach(uuid=b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:14:09.589 [main] INFO  GhostFileCleanupJob - Attach(uuid=d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:14:09.590 [main] INFO  GhostFileCleanupJob - Attach(uuid=de9930a7-98f3-46bd-ac63-eabd1ef7cc44.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=180, rno=null, odr=2, size=705670)
+12:14:09.590 [main] INFO  GhostFileCleanupJob - Attach(uuid=e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:14:09.590 [main] INFO  GhostFileCleanupJob - Attach(uuid=f023536e-e43c-4e38-86bd-963f10906034.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=180, rno=null, odr=0, size=13717)
+12:14:09.590 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:14:09.590 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:14:09.590 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=null, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:14:09.591 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:14:09.591 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_6d5b3907-98e8-469e-8d58-35b1779b8d6a.jpg, path=null, image=true, origin=새똥이.jpg, bno=180, rno=null, odr=3, size=1224494)
+12:14:09.591 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=null, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:14:09.591 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_87362583-b323-4a34-a5fb-928c999f8b46.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:14:09.591 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:14:09.591 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:14:09.592 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=null, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:14:09.592 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=null, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:14:09.592 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=null, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:14:09.592 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_de9930a7-98f3-46bd-ac63-eabd1ef7cc44.png, path=null, image=true, origin=sample-boat-400x300.png, bno=180, rno=null, odr=2, size=705670)
+12:14:09.592 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=null, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:14:09.592 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_f023536e-e43c-4e38-86bd-963f10906034.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=180, rno=null, odr=0, size=13717)
+12:14:09.593 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\2ce8ab93-925d-4266-a2c8-c78094c8cde8.png
+12:14:09.594 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif
+12:14:09.594 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp
+12:14:09.594 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\3a28a9d1-301e-491d-a123-590c3a015f5b.gif
+12:14:09.594 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\6d5b3907-98e8-469e-8d58-35b1779b8d6a.jpg
+12:14:09.594 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg
+12:14:09.594 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\793f79c7-78f5-42b5-a50c-77528740dccd.pdf
+12:14:09.594 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\87362583-b323-4a34-a5fb-928c999f8b46.gif
+12:14:09.594 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\89afd113-96e8-481b-94e5-beb56a8ca8ad.gif
+12:14:09.594 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\90c262d7-3121-42c2-be5a-67c6a7da0c6f.webp
+12:14:09.595 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png
+12:14:09.595 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\b217ac4c-6b50-4255-ba08-744bc3956991.bmp
+12:14:09.595 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg
+12:14:09.595 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg
+12:14:09.595 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\de9930a7-98f3-46bd-ac63-eabd1ef7cc44.png
+12:14:09.595 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp
+12:14:09.595 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\f023536e-e43c-4e38-86bd-963f10906034.gif
+12:14:09.595 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png
+12:14:09.596 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif
+12:14:09.597 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp
+12:14:09.597 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif
+12:14:09.597 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_6d5b3907-98e8-469e-8d58-35b1779b8d6a.jpg
+12:14:09.597 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg
+12:14:09.597 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_87362583-b323-4a34-a5fb-928c999f8b46.gif
+12:14:09.597 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif
+12:14:09.598 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png
+12:14:09.598 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp
+12:14:09.598 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg
+12:14:09.598 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg
+12:14:09.598 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_de9930a7-98f3-46bd-ac63-eabd1ef7cc44.png
+12:14:09.598 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp
+12:14:09.598 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_f023536e-e43c-4e38-86bd-963f10906034.gif
+12:14:09.609 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\7fed8521-0b28-44ce-8472-f2a8342b34dc.pdf
+12:14:09.609 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\9ee4b1e2-7ea1-4b51-9b8a-6ea452acee58.jpg
+12:14:09.609 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\9f24c04b-df15-4af7-8f62-d67de740da01.gif
+12:14:09.609 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_6d5b3907-98e8-469e-8d58-35b1779b8d6a.jpg
+12:14:09.609 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_9ee4b1e2-7ea1-4b51-9b8a-6ea452acee58.jpg
+12:14:09.610 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_9f24c04b-df15-4af7-8f62-d67de740da01.gif
+12:14:09.610 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_de9930a7-98f3-46bd-ac63-eabd1ef7cc44.png
+12:14:09.610 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_f023536e-e43c-4e38-86bd-963f10906034.gif
+12:14:09.612 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\7fed8521-0b28-44ce-8472-f2a8342b34dc.pdf
+12:14:09.612 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\9ee4b1e2-7ea1-4b51-9b8a-6ea452acee58.jpg
+12:14:09.613 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\9f24c04b-df15-4af7-8f62-d67de740da01.gif
+12:14:09.613 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_6d5b3907-98e8-469e-8d58-35b1779b8d6a.jpg
+12:14:09.613 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_9ee4b1e2-7ea1-4b51-9b8a-6ea452acee58.jpg
+12:14:09.613 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_9f24c04b-df15-4af7-8f62-d67de740da01.gif
+12:14:09.613 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_de9930a7-98f3-46bd-ac63-eabd1ef7cc44.png
+12:14:09.613 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_f023536e-e43c-4e38-86bd-963f10906034.gif
+12:18:38.946 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+12:18:39.529 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d')
+ {executed in 7 msec}
+12:18:39.549 [main] INFO  GhostFileCleanupJob - ==============썸네일 없는 파일==============
+12:18:39.550 [main] INFO  GhostFileCleanupJob - Attach(uuid=2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:18:39.561 [main] INFO  GhostFileCleanupJob - Attach(uuid=3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:18:39.561 [main] INFO  GhostFileCleanupJob - Attach(uuid=354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:18:39.562 [main] INFO  GhostFileCleanupJob - Attach(uuid=3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:18:39.562 [main] INFO  GhostFileCleanupJob - Attach(uuid=57a91eff-4703-4b09-95c1-68d470f38650.pdf, path=2025/06/30, image=false, origin=codeFestival_js_1.pdf, bno=181, rno=null, odr=1, size=3109403)
+12:18:39.562 [main] INFO  GhostFileCleanupJob - Attach(uuid=70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:18:39.562 [main] INFO  GhostFileCleanupJob - Attach(uuid=793f79c7-78f5-42b5-a50c-77528740dccd.pdf, path=2025/06/30, image=false, origin=codeFestival_js_2.pdf, bno=179, rno=null, odr=1, size=4720944)
+12:18:39.562 [main] INFO  GhostFileCleanupJob - Attach(uuid=87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:18:39.562 [main] INFO  GhostFileCleanupJob - Attach(uuid=89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:18:39.562 [main] INFO  GhostFileCleanupJob - Attach(uuid=ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:18:39.562 [main] INFO  GhostFileCleanupJob - Attach(uuid=b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:18:39.563 [main] INFO  GhostFileCleanupJob - Attach(uuid=b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:18:39.563 [main] INFO  GhostFileCleanupJob - Attach(uuid=cec0368a-3796-4e7f-bf42-d3acb08d0c61.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=181, rno=null, odr=0, size=13717)
+12:18:39.563 [main] INFO  GhostFileCleanupJob - Attach(uuid=d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:18:39.563 [main] INFO  GhostFileCleanupJob - Attach(uuid=d60ef3b4-64bc-46c5-90d3-c8d8af538ca0.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=181, rno=null, odr=2, size=823122)
+12:18:39.563 [main] INFO  GhostFileCleanupJob - Attach(uuid=e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:18:39.564 [main] INFO  GhostFileCleanupJob - ==============썸네일만==============
+12:18:39.565 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:18:39.566 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:18:39.566 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=null, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:18:39.566 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:18:39.566 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=null, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:18:39.566 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_87362583-b323-4a34-a5fb-928c999f8b46.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:18:39.566 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:18:39.567 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:18:39.568 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=null, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:18:39.568 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=null, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:18:39.568 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_cec0368a-3796-4e7f-bf42-d3acb08d0c61.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=181, rno=null, odr=0, size=13717)
+12:18:39.568 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=null, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:18:39.568 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_d60ef3b4-64bc-46c5-90d3-c8d8af538ca0.bmp, path=null, image=true, origin=sample1.bmp, bno=181, rno=null, odr=2, size=823122)
+12:18:39.569 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=null, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:18:39.569 [main] INFO  GhostFileCleanupJob - ==============둘 다 합친거==============
+12:18:39.569 [main] INFO  GhostFileCleanupJob - Attach(uuid=2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:18:39.570 [main] INFO  GhostFileCleanupJob - Attach(uuid=3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:18:39.571 [main] INFO  GhostFileCleanupJob - Attach(uuid=354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:18:39.571 [main] INFO  GhostFileCleanupJob - Attach(uuid=3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:18:39.571 [main] INFO  GhostFileCleanupJob - Attach(uuid=57a91eff-4703-4b09-95c1-68d470f38650.pdf, path=2025/06/30, image=false, origin=codeFestival_js_1.pdf, bno=181, rno=null, odr=1, size=3109403)
+12:18:39.571 [main] INFO  GhostFileCleanupJob - Attach(uuid=70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:18:39.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=793f79c7-78f5-42b5-a50c-77528740dccd.pdf, path=2025/06/30, image=false, origin=codeFestival_js_2.pdf, bno=179, rno=null, odr=1, size=4720944)
+12:18:39.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:18:39.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:18:39.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:18:39.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:18:39.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:18:39.574 [main] INFO  GhostFileCleanupJob - Attach(uuid=cec0368a-3796-4e7f-bf42-d3acb08d0c61.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=181, rno=null, odr=0, size=13717)
+12:18:39.574 [main] INFO  GhostFileCleanupJob - Attach(uuid=d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:18:39.574 [main] INFO  GhostFileCleanupJob - Attach(uuid=d60ef3b4-64bc-46c5-90d3-c8d8af538ca0.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=181, rno=null, odr=2, size=823122)
+12:18:39.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:18:39.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:18:39.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:18:39.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=null, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:18:39.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:18:39.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=null, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:18:39.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_87362583-b323-4a34-a5fb-928c999f8b46.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:18:39.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:18:39.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:18:39.575 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=null, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:18:39.576 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=null, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:18:39.577 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_cec0368a-3796-4e7f-bf42-d3acb08d0c61.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=181, rno=null, odr=0, size=13717)
+12:18:39.577 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=null, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:18:39.577 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_d60ef3b4-64bc-46c5-90d3-c8d8af538ca0.bmp, path=null, image=true, origin=sample1.bmp, bno=181, rno=null, odr=2, size=823122)
+12:18:39.577 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=null, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:18:39.578 [main] INFO  GhostFileCleanupJob - ==============삭제대상 파일==============
+12:18:39.578 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\2ce8ab93-925d-4266-a2c8-c78094c8cde8.png
+12:18:39.578 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif
+12:18:39.579 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp
+12:18:39.579 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\3a28a9d1-301e-491d-a123-590c3a015f5b.gif
+12:18:39.579 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\57a91eff-4703-4b09-95c1-68d470f38650.pdf
+12:18:39.579 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg
+12:18:39.579 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\793f79c7-78f5-42b5-a50c-77528740dccd.pdf
+12:18:39.579 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\87362583-b323-4a34-a5fb-928c999f8b46.gif
+12:18:39.579 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\89afd113-96e8-481b-94e5-beb56a8ca8ad.gif
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\b217ac4c-6b50-4255-ba08-744bc3956991.bmp
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\cec0368a-3796-4e7f-bf42-d3acb08d0c61.gif
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\d60ef3b4-64bc-46c5-90d3-c8d8af538ca0.bmp
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif
+12:18:39.580 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg
+12:18:39.581 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_87362583-b323-4a34-a5fb-928c999f8b46.gif
+12:18:39.581 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif
+12:18:39.581 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png
+12:18:39.581 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp
+12:18:39.581 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg
+12:18:39.581 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_cec0368a-3796-4e7f-bf42-d3acb08d0c61.gif
+12:18:39.581 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg
+12:18:39.581 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_d60ef3b4-64bc-46c5-90d3-c8d8af538ca0.bmp
+12:18:39.581 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp
+12:18:39.591 [main] INFO  GhostFileCleanupJob - ==============삭제후?==============
+12:18:39.592 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\1b055833-8c82-4c20-8aac-13bfb0018e29.jpg
+12:18:39.592 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\2aef91b6-5619-4e32-b3f5-afc40ee6c0af.pdf
+12:18:39.592 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\cd36fe85-ae62-4014-a2bb-c35040bbc1de.pdf
+12:18:39.592 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_1b055833-8c82-4c20-8aac-13bfb0018e29.jpg
+12:18:39.592 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_cec0368a-3796-4e7f-bf42-d3acb08d0c61.gif
+12:18:39.592 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_d60ef3b4-64bc-46c5-90d3-c8d8af538ca0.bmp
+12:18:39.595 [main] INFO  GhostFileCleanupJob - ==============fslist==============
+12:18:39.595 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\1b055833-8c82-4c20-8aac-13bfb0018e29.jpg
+12:18:39.596 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\2aef91b6-5619-4e32-b3f5-afc40ee6c0af.pdf
+12:18:39.596 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\cd36fe85-ae62-4014-a2bb-c35040bbc1de.pdf
+12:18:39.596 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_1b055833-8c82-4c20-8aac-13bfb0018e29.jpg
+12:18:39.596 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_cec0368a-3796-4e7f-bf42-d3acb08d0c61.gif
+12:18:39.596 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_d60ef3b4-64bc-46c5-90d3-c8d8af538ca0.bmp
+12:20:14.623 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+12:20:15.217 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d')
+ {executed in 7 msec}
+12:20:15.238 [main] INFO  GhostFileCleanupJob - ==============썸네일 없는 파일==============
+12:20:15.239 [main] INFO  GhostFileCleanupJob - Attach(uuid=2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:20:15.251 [main] INFO  GhostFileCleanupJob - Attach(uuid=3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:20:15.251 [main] INFO  GhostFileCleanupJob - Attach(uuid=354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:20:15.251 [main] INFO  GhostFileCleanupJob - Attach(uuid=3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:20:15.252 [main] INFO  GhostFileCleanupJob - Attach(uuid=70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:20:15.252 [main] INFO  GhostFileCleanupJob - Attach(uuid=793f79c7-78f5-42b5-a50c-77528740dccd.pdf, path=2025/06/30, image=false, origin=codeFestival_js_2.pdf, bno=179, rno=null, odr=1, size=4720944)
+12:20:15.252 [main] INFO  GhostFileCleanupJob - Attach(uuid=87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:20:15.252 [main] INFO  GhostFileCleanupJob - Attach(uuid=89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:20:15.252 [main] INFO  GhostFileCleanupJob - Attach(uuid=98cd258a-ccf4-4683-8388-6ede245aaa0d.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=182, rno=null, odr=2, size=705670)
+12:20:15.252 [main] INFO  GhostFileCleanupJob - Attach(uuid=ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:20:15.252 [main] INFO  GhostFileCleanupJob - Attach(uuid=b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:20:15.252 [main] INFO  GhostFileCleanupJob - Attach(uuid=b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:20:15.253 [main] INFO  GhostFileCleanupJob - Attach(uuid=d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:20:15.254 [main] INFO  GhostFileCleanupJob - Attach(uuid=dc5a6d60-6bce-43dd-a211-90b16dc1d7d0.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=182, rno=null, odr=0, size=13717)
+12:20:15.255 [main] INFO  GhostFileCleanupJob - Attach(uuid=e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:20:15.255 [main] INFO  GhostFileCleanupJob - Attach(uuid=edab01f6-a0f3-4051-b2f5-478cf55001e8.pdf, path=2025/06/30, image=false, origin=codeFestival_js_1.pdf, bno=182, rno=null, odr=1, size=3109403)
+12:20:15.257 [main] INFO  GhostFileCleanupJob - ==============썸네일만==============
+12:20:15.257 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:20:15.259 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:20:15.259 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=null, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:20:15.260 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:20:15.260 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=null, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:20:15.260 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_87362583-b323-4a34-a5fb-928c999f8b46.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:20:15.260 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:20:15.260 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_98cd258a-ccf4-4683-8388-6ede245aaa0d.png, path=null, image=true, origin=sample-boat-400x300.png, bno=182, rno=null, odr=2, size=705670)
+12:20:15.260 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:20:15.260 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=null, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:20:15.260 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=null, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:20:15.260 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=null, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:20:15.261 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_dc5a6d60-6bce-43dd-a211-90b16dc1d7d0.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=182, rno=null, odr=0, size=13717)
+12:20:15.261 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=null, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:20:15.262 [main] INFO  GhostFileCleanupJob - ==============둘 다 합친거==============
+12:20:15.262 [main] INFO  GhostFileCleanupJob - Attach(uuid=2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:20:15.262 [main] INFO  GhostFileCleanupJob - Attach(uuid=3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:20:15.262 [main] INFO  GhostFileCleanupJob - Attach(uuid=354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:20:15.263 [main] INFO  GhostFileCleanupJob - Attach(uuid=3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:20:15.263 [main] INFO  GhostFileCleanupJob - Attach(uuid=70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:20:15.263 [main] INFO  GhostFileCleanupJob - Attach(uuid=793f79c7-78f5-42b5-a50c-77528740dccd.pdf, path=2025/06/30, image=false, origin=codeFestival_js_2.pdf, bno=179, rno=null, odr=1, size=4720944)
+12:20:15.263 [main] INFO  GhostFileCleanupJob - Attach(uuid=87362583-b323-4a34-a5fb-928c999f8b46.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:20:15.263 [main] INFO  GhostFileCleanupJob - Attach(uuid=89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:20:15.263 [main] INFO  GhostFileCleanupJob - Attach(uuid=98cd258a-ccf4-4683-8388-6ede245aaa0d.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=182, rno=null, odr=2, size=705670)
+12:20:15.263 [main] INFO  GhostFileCleanupJob - Attach(uuid=ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:20:15.263 [main] INFO  GhostFileCleanupJob - Attach(uuid=b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:20:15.264 [main] INFO  GhostFileCleanupJob - Attach(uuid=b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:20:15.264 [main] INFO  GhostFileCleanupJob - Attach(uuid=d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=2025/06/30, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:20:15.264 [main] INFO  GhostFileCleanupJob - Attach(uuid=dc5a6d60-6bce-43dd-a211-90b16dc1d7d0.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=182, rno=null, odr=0, size=13717)
+12:20:15.264 [main] INFO  GhostFileCleanupJob - Attach(uuid=e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=2025/06/30, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:20:15.264 [main] INFO  GhostFileCleanupJob - Attach(uuid=edab01f6-a0f3-4051-b2f5-478cf55001e8.pdf, path=2025/06/30, image=false, origin=codeFestival_js_1.pdf, bno=182, rno=null, odr=1, size=3109403)
+12:20:15.264 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=1, size=705670)
+12:20:15.264 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=154, rno=null, odr=0, size=13717)
+12:20:15.264 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp, path=null, image=true, origin=sample1.bmp, bno=179, rno=null, odr=2, size=823122)
+12:20:15.264 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=153, rno=null, odr=2, size=13717)
+12:20:15.264 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg, path=null, image=true, origin=새똥이.jpg, bno=153, rno=null, odr=0, size=1224494)
+12:20:15.265 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_87362583-b323-4a34-a5fb-928c999f8b46.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=177, rno=null, odr=0, size=13717)
+12:20:15.265 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=179, rno=null, odr=0, size=13717)
+12:20:15.265 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_98cd258a-ccf4-4683-8388-6ede245aaa0d.png, path=null, image=true, origin=sample-boat-400x300.png, bno=182, rno=null, odr=2, size=705670)
+12:20:15.265 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png, path=null, image=true, origin=sample-boat-400x300.png, bno=153, rno=null, odr=3, size=705670)
+12:20:15.265 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp, path=null, image=true, origin=sample1.bmp, bno=154, rno=null, odr=1, size=823122)
+12:20:15.265 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg, path=null, image=true, origin=새똥이.jpg, bno=154, rno=null, odr=2, size=1224494)
+12:20:15.265 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg, path=null, image=true, origin=새똥이.jpg, bno=177, rno=null, odr=2, size=1224494)
+12:20:15.265 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_dc5a6d60-6bce-43dd-a211-90b16dc1d7d0.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=182, rno=null, odr=0, size=13717)
+12:20:15.266 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp, path=null, image=true, origin=sample1.bmp, bno=177, rno=null, odr=1, size=823122)
+12:20:15.267 [main] INFO  GhostFileCleanupJob - ==============삭제대상 파일==============
+12:20:15.267 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\2ce8ab93-925d-4266-a2c8-c78094c8cde8.png
+12:20:15.267 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif
+12:20:15.267 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp
+12:20:15.267 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\3a28a9d1-301e-491d-a123-590c3a015f5b.gif
+12:20:15.267 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg
+12:20:15.267 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\793f79c7-78f5-42b5-a50c-77528740dccd.pdf
+12:20:15.268 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\87362583-b323-4a34-a5fb-928c999f8b46.gif
+12:20:15.268 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\89afd113-96e8-481b-94e5-beb56a8ca8ad.gif
+12:20:15.268 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\98cd258a-ccf4-4683-8388-6ede245aaa0d.png
+12:20:15.268 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png
+12:20:15.268 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\b217ac4c-6b50-4255-ba08-744bc3956991.bmp
+12:20:15.268 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg
+12:20:15.268 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg
+12:20:15.268 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\dc5a6d60-6bce-43dd-a211-90b16dc1d7d0.gif
+12:20:15.268 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp
+12:20:15.269 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\edab01f6-a0f3-4051-b2f5-478cf55001e8.pdf
+12:20:15.269 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_2ce8ab93-925d-4266-a2c8-c78094c8cde8.png
+12:20:15.269 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_3024f3c7-ca65-4d5f-b8b6-cd1c309ee468.gif
+12:20:15.269 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_354408cc-7b36-4c93-a9e4-48aef27ec3af.bmp
+12:20:15.269 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_3a28a9d1-301e-491d-a123-590c3a015f5b.gif
+12:20:15.270 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_70e41766-e25e-4ec2-b61b-b2e92fd160c9.jpg
+12:20:15.270 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_87362583-b323-4a34-a5fb-928c999f8b46.gif
+12:20:15.270 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_89afd113-96e8-481b-94e5-beb56a8ca8ad.gif
+12:20:15.271 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_98cd258a-ccf4-4683-8388-6ede245aaa0d.png
+12:20:15.271 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_ad4fd0a6-9e96-4caf-9e3d-4baf4c7c03a9.png
+12:20:15.271 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_b217ac4c-6b50-4255-ba08-744bc3956991.bmp
+12:20:15.271 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_b6ccb019-81fb-4b4a-80c1-258eaf7d04f4.jpg
+12:20:15.271 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_d53d3d4f-355c-4b7c-afb9-9742386581ff.jpg
+12:20:15.271 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_dc5a6d60-6bce-43dd-a211-90b16dc1d7d0.gif
+12:20:15.271 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_e8a62163-15da-4b88-b6a7-2f82bc4b1bfb.bmp
+12:20:15.286 [main] INFO  GhostFileCleanupJob - ==============삭제후?==============
+12:20:15.287 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\ee034886-b002-4f50-af01-f6e322310f5d.jpg
+12:20:15.287 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\f8e009fe-b284-4992-9bfe-11cb10c4985f.pdf
+12:20:15.287 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_98cd258a-ccf4-4683-8388-6ede245aaa0d.png
+12:20:15.287 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_dc5a6d60-6bce-43dd-a211-90b16dc1d7d0.gif
+12:20:15.287 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_ee034886-b002-4f50-af01-f6e322310f5d.jpg
+12:20:15.289 [main] INFO  GhostFileCleanupJob - ==============fslist==============
+12:20:15.290 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\ee034886-b002-4f50-af01-f6e322310f5d.jpg
+12:20:15.290 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\f8e009fe-b284-4992-9bfe-11cb10c4985f.pdf
+12:20:15.290 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_98cd258a-ccf4-4683-8388-6ede245aaa0d.png
+12:20:15.290 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_dc5a6d60-6bce-43dd-a211-90b16dc1d7d0.gif
+12:20:15.290 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_ee034886-b002-4f50-af01-f6e322310f5d.jpg
+12:23:40.584 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+12:23:41.176 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d')
+ {executed in 6 msec}
+12:23:41.195 [main] INFO  GhostFileCleanupJob - ==============썸네일 없는 파일==============
+12:23:41.195 [main] INFO  GhostFileCleanupJob - Attach(uuid=3068617d-9120-4578-8639-1869aa0b1d77.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=183, rno=null, odr=2, size=705670)
+12:23:41.206 [main] INFO  GhostFileCleanupJob - Attach(uuid=57200923-fee6-4ad7-87e3-302d0111b67b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=183, rno=null, odr=0, size=13717)
+12:23:41.206 [main] INFO  GhostFileCleanupJob - Attach(uuid=f266e304-a057-48a9-a0dd-ef59d90aaf4a.pdf, path=2025/06/30, image=false, origin=codeFestival_js_2.pdf, bno=183, rno=null, odr=1, size=4720944)
+12:23:41.208 [main] INFO  GhostFileCleanupJob - ==============썸네일만==============
+12:23:41.208 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3068617d-9120-4578-8639-1869aa0b1d77.png, path=null, image=true, origin=sample-boat-400x300.png, bno=183, rno=null, odr=2, size=705670)
+12:23:41.209 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_57200923-fee6-4ad7-87e3-302d0111b67b.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=183, rno=null, odr=0, size=13717)
+12:23:41.209 [main] INFO  GhostFileCleanupJob - ==============둘 다 합친거==============
+12:23:41.209 [main] INFO  GhostFileCleanupJob - Attach(uuid=3068617d-9120-4578-8639-1869aa0b1d77.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=183, rno=null, odr=2, size=705670)
+12:23:41.209 [main] INFO  GhostFileCleanupJob - Attach(uuid=57200923-fee6-4ad7-87e3-302d0111b67b.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=183, rno=null, odr=0, size=13717)
+12:23:41.210 [main] INFO  GhostFileCleanupJob - Attach(uuid=f266e304-a057-48a9-a0dd-ef59d90aaf4a.pdf, path=2025/06/30, image=false, origin=codeFestival_js_2.pdf, bno=183, rno=null, odr=1, size=4720944)
+12:23:41.210 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_3068617d-9120-4578-8639-1869aa0b1d77.png, path=null, image=true, origin=sample-boat-400x300.png, bno=183, rno=null, odr=2, size=705670)
+12:23:41.210 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_57200923-fee6-4ad7-87e3-302d0111b67b.gif, path=null, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=183, rno=null, odr=0, size=13717)
+12:23:41.210 [main] INFO  GhostFileCleanupJob - ==============삭제대상 파일==============
+12:23:41.211 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\3068617d-9120-4578-8639-1869aa0b1d77.png
+12:23:41.211 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\57200923-fee6-4ad7-87e3-302d0111b67b.gif
+12:23:41.211 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\f266e304-a057-48a9-a0dd-ef59d90aaf4a.pdf
+12:23:41.211 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_3068617d-9120-4578-8639-1869aa0b1d77.png
+12:23:41.211 [main] INFO  GhostFileCleanupJob - d:\upload\files\null\t_57200923-fee6-4ad7-87e3-302d0111b67b.gif
+12:23:41.223 [main] INFO  GhostFileCleanupJob - ==============삭제후 남은 파일==============
+12:23:41.223 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\8f5cec38-84a7-40e5-82ff-9aca60d044dc.jpg
+12:23:41.224 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\98cd258a-ccf4-4683-8388-6ede245aaa0d.png
+12:23:41.224 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\bcbd744c-3fb7-4329-992f-26e429fe6988.pdf
+12:23:41.224 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\dc5a6d60-6bce-43dd-a211-90b16dc1d7d0.gif
+12:23:41.224 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\edab01f6-a0f3-4051-b2f5-478cf55001e8.pdf
+12:23:41.224 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_3068617d-9120-4578-8639-1869aa0b1d77.png
+12:23:41.224 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_57200923-fee6-4ad7-87e3-302d0111b67b.gif
+12:23:41.224 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_8f5cec38-84a7-40e5-82ff-9aca60d044dc.jpg
+12:23:41.227 [main] INFO  GhostFileCleanupJob - ==============fslist==============
+12:23:41.228 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\8f5cec38-84a7-40e5-82ff-9aca60d044dc.jpg
+12:23:41.228 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\98cd258a-ccf4-4683-8388-6ede245aaa0d.png
+12:23:41.228 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\bcbd744c-3fb7-4329-992f-26e429fe6988.pdf
+12:23:41.228 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\dc5a6d60-6bce-43dd-a211-90b16dc1d7d0.gif
+12:23:41.228 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\edab01f6-a0f3-4051-b2f5-478cf55001e8.pdf
+12:23:41.228 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_3068617d-9120-4578-8639-1869aa0b1d77.png
+12:23:41.228 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_57200923-fee6-4ad7-87e3-302d0111b67b.gif
+12:23:41.229 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_8f5cec38-84a7-40e5-82ff-9aca60d044dc.jpg
+12:36:36.807 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30 true
+12:36:37.463 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d')
+ {executed in 13 msec}
+12:36:37.481 [main] INFO  GhostFileCleanupJob - ==============썸네일 없는 파일==============
+12:36:37.482 [main] INFO  GhostFileCleanupJob - Attach(uuid=476b0915-7218-4034-9c6e-3e09ee567d68.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=184, rno=null, odr=0, size=13717)
+12:36:37.490 [main] INFO  GhostFileCleanupJob - Attach(uuid=59308a9e-d336-4c25-b2f0-337f2a6c7269.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=184, rno=null, odr=2, size=705670)
+12:36:37.491 [main] INFO  GhostFileCleanupJob - Attach(uuid=eab32dee-643a-452c-8fa5-8c64fba3ef3c.pdf, path=2025/06/30, image=false, origin=codeFestival_js_1.pdf, bno=184, rno=null, odr=1, size=3109403)
+12:36:37.493 [main] INFO  GhostFileCleanupJob - ==============썸네일만==============
+12:36:37.493 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_476b0915-7218-4034-9c6e-3e09ee567d68.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=184, rno=null, odr=0, size=13717)
+12:36:37.494 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_59308a9e-d336-4c25-b2f0-337f2a6c7269.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=184, rno=null, odr=2, size=705670)
+12:36:37.494 [main] INFO  GhostFileCleanupJob - ==============둘 다 합친거==============
+12:36:37.494 [main] INFO  GhostFileCleanupJob - Attach(uuid=476b0915-7218-4034-9c6e-3e09ee567d68.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=184, rno=null, odr=0, size=13717)
+12:36:37.495 [main] INFO  GhostFileCleanupJob - Attach(uuid=59308a9e-d336-4c25-b2f0-337f2a6c7269.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=184, rno=null, odr=2, size=705670)
+12:36:37.495 [main] INFO  GhostFileCleanupJob - Attach(uuid=eab32dee-643a-452c-8fa5-8c64fba3ef3c.pdf, path=2025/06/30, image=false, origin=codeFestival_js_1.pdf, bno=184, rno=null, odr=1, size=3109403)
+12:36:37.495 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_476b0915-7218-4034-9c6e-3e09ee567d68.gif, path=2025/06/30, image=true, origin=circuitpython_sample-nyan-pyportal.gif, bno=184, rno=null, odr=0, size=13717)
+12:36:37.495 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_59308a9e-d336-4c25-b2f0-337f2a6c7269.png, path=2025/06/30, image=true, origin=sample-boat-400x300.png, bno=184, rno=null, odr=2, size=705670)
+12:36:37.496 [main] INFO  GhostFileCleanupJob - ==============삭제대상 파일==============
+12:36:37.496 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\476b0915-7218-4034-9c6e-3e09ee567d68.gif
+12:36:37.496 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\59308a9e-d336-4c25-b2f0-337f2a6c7269.png
+12:36:37.496 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\eab32dee-643a-452c-8fa5-8c64fba3ef3c.pdf
+12:36:37.496 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_476b0915-7218-4034-9c6e-3e09ee567d68.gif
+12:36:37.497 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_59308a9e-d336-4c25-b2f0-337f2a6c7269.png
+12:36:37.504 [main] INFO  GhostFileCleanupJob - ==============삭제후 남은 파일==============
+12:36:37.505 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\3068617d-9120-4578-8639-1869aa0b1d77.png
+12:36:37.505 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\57200923-fee6-4ad7-87e3-302d0111b67b.gif
+12:36:37.505 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\6f288ca8-9e33-409a-8448-4b3608fcc294.jpg
+12:36:37.505 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\f266e304-a057-48a9-a0dd-ef59d90aaf4a.pdf
+12:36:37.505 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_6f288ca8-9e33-409a-8448-4b3608fcc294.jpg
+12:36:37.507 [main] INFO  GhostFileCleanupJob - ==============fslist==============
+12:36:37.508 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\3068617d-9120-4578-8639-1869aa0b1d77.png
+12:36:37.508 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\57200923-fee6-4ad7-87e3-302d0111b67b.gif
+12:36:37.508 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\6f288ca8-9e33-409a-8448-4b3608fcc294.jpg
+12:36:37.508 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\f266e304-a057-48a9-a0dd-ef59d90aaf4a.pdf
+12:36:37.508 [main] INFO  GhostFileCleanupJob - d:\upload\files\2025\06\30\t_6f288ca8-9e33-409a-8448-4b3608fcc294.jpg

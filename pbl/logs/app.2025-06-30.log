@@ -1,0 +1,263 @@
+09:54:34.484 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:54:34.502 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:56:31.927 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:56:31.938 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:56:31.940 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+09:56:31.943 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:56:44.840 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:56:44.851 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:56:44.853 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+09:56:44.855 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+09:59:16.799 [main] INFO  ParamUtils - equals
+09:59:16.800 [main] INFO  ParamUtils - toString
+09:59:16.800 [main] INFO  ParamUtils - hashCode
+09:59:16.800 [main] INFO  ParamUtils - builder
+09:59:16.801 [main] INFO  ParamUtils - getId
+09:59:16.801 [main] INFO  ParamUtils - getContent
+09:59:16.802 [main] INFO  ParamUtils - getAttachCnt
+09:59:16.802 [main] INFO  ParamUtils - setReplyCnt
+09:59:16.802 [main] INFO  ParamUtils - getReplyCnt
+09:59:16.802 [main] INFO  ParamUtils - setAttachCnt
+09:59:16.802 [main] INFO  ParamUtils - setModdate
+09:59:16.802 [main] INFO  ParamUtils - getBno
+09:59:16.802 [main] INFO  ParamUtils - getCno
+09:59:16.803 [main] INFO  ParamUtils - setTitle
+09:59:16.803 [main] INFO  ParamUtils - setCnt
+09:59:16.803 [main] INFO  ParamUtils - getRegdate
+09:59:16.803 [main] INFO  ParamUtils - setContent
+09:59:16.803 [main] INFO  ParamUtils - setAttachs
+09:59:16.803 [main] INFO  ParamUtils - getTitle
+09:59:16.803 [main] INFO  ParamUtils - setBno
+09:59:16.804 [main] INFO  ParamUtils - getModdate
+09:59:16.804 [main] INFO  ParamUtils - setRegdate
+09:59:16.804 [main] INFO  ParamUtils - getAttachs
+09:59:16.804 [main] INFO  ParamUtils - setId
+09:59:16.804 [main] INFO  ParamUtils - setCno
+09:59:16.804 [main] INFO  ParamUtils - getCnt
+09:59:16.804 [main] INFO  ParamUtils - getClass
+09:59:16.804 [main] INFO  ParamUtils - notify
+09:59:16.805 [main] INFO  ParamUtils - notifyAll
+09:59:16.805 [main] INFO  ParamUtils - wait
+09:59:16.805 [main] INFO  ParamUtils - wait
+09:59:16.805 [main] INFO  ParamUtils - wait
+09:59:16.805 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:59:16.818 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:59:16.821 [main] INFO  ParamUtils - equals
+09:59:16.821 [main] INFO  ParamUtils - toString
+09:59:16.821 [main] INFO  ParamUtils - hashCode
+09:59:16.821 [main] INFO  ParamUtils - builder
+09:59:16.821 [main] INFO  ParamUtils - getId
+09:59:16.821 [main] INFO  ParamUtils - getContent
+09:59:16.822 [main] INFO  ParamUtils - getBno
+09:59:16.822 [main] INFO  ParamUtils - getRegdate
+09:59:16.822 [main] INFO  ParamUtils - setContent
+09:59:16.822 [main] INFO  ParamUtils - setBno
+09:59:16.822 [main] INFO  ParamUtils - setRegdate
+09:59:16.822 [main] INFO  ParamUtils - setId
+09:59:16.822 [main] INFO  ParamUtils - setRno
+09:59:16.822 [main] INFO  ParamUtils - getRno
+09:59:16.822 [main] INFO  ParamUtils - getClass
+09:59:16.823 [main] INFO  ParamUtils - notify
+09:59:16.823 [main] INFO  ParamUtils - notifyAll
+09:59:16.823 [main] INFO  ParamUtils - wait
+09:59:16.823 [main] INFO  ParamUtils - wait
+09:59:16.823 [main] INFO  ParamUtils - wait
+09:59:16.823 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+09:59:16.826 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+09:59:52.640 [main] INFO  ParamUtils - equals
+09:59:52.642 [main] INFO  ParamUtils - toString
+09:59:52.642 [main] INFO  ParamUtils - hashCode
+09:59:52.642 [main] INFO  ParamUtils - builder
+09:59:52.642 [main] INFO  ParamUtils - getId
+09:59:52.643 [main] INFO  ParamUtils - getContent
+09:59:52.643 [main] INFO  ParamUtils - setContent
+09:59:52.643 [main] INFO  ParamUtils - getAttachs
+09:59:52.643 [main] INFO  ParamUtils - getTitle
+09:59:52.643 [main] INFO  ParamUtils - setModdate
+09:59:52.643 [main] INFO  ParamUtils - setId
+09:59:52.643 [main] INFO  ParamUtils - canEqual
+09:59:52.643 [main] INFO  ParamUtils - getCnt
+09:59:52.643 [main] INFO  ParamUtils - setTitle
+09:59:52.643 [main] INFO  ParamUtils - setCno
+09:59:52.643 [main] INFO  ParamUtils - setRegdate
+09:59:52.644 [main] INFO  ParamUtils - setBno
+09:59:52.644 [main] INFO  ParamUtils - setAttachs
+09:59:52.644 [main] INFO  ParamUtils - getModdate
+09:59:52.644 [main] INFO  ParamUtils - getCno
+09:59:52.644 [main] INFO  ParamUtils - getBno
+09:59:52.644 [main] INFO  ParamUtils - getRegdate
+09:59:52.644 [main] INFO  ParamUtils - setCnt
+09:59:52.644 [main] INFO  ParamUtils - $default$attachs
+09:59:52.645 [main] INFO  ParamUtils - setReplyCnt
+09:59:52.645 [main] INFO  ParamUtils - setAttachCnt
+09:59:52.645 [main] INFO  ParamUtils - getAttachCnt
+09:59:52.645 [main] INFO  ParamUtils - getReplyCnt
+09:59:52.645 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:59:52.659 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:59:52.660 [main] INFO  ParamUtils - equals
+09:59:52.660 [main] INFO  ParamUtils - toString
+09:59:52.661 [main] INFO  ParamUtils - hashCode
+09:59:52.661 [main] INFO  ParamUtils - builder
+09:59:52.661 [main] INFO  ParamUtils - getId
+09:59:52.661 [main] INFO  ParamUtils - getContent
+09:59:52.661 [main] INFO  ParamUtils - setContent
+09:59:52.661 [main] INFO  ParamUtils - setId
+09:59:52.661 [main] INFO  ParamUtils - canEqual
+09:59:52.661 [main] INFO  ParamUtils - setRegdate
+09:59:52.661 [main] INFO  ParamUtils - setBno
+09:59:52.661 [main] INFO  ParamUtils - getBno
+09:59:52.661 [main] INFO  ParamUtils - getRegdate
+09:59:52.662 [main] INFO  ParamUtils - getRno
+09:59:52.662 [main] INFO  ParamUtils - setRno
+09:59:52.662 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+09:59:52.665 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+10:00:17.565 [main] INFO  ParamUtils - setId
+10:00:17.566 [main] INFO  ParamUtils - setCno
+10:00:17.566 [main] INFO  ParamUtils - getCnt
+10:00:17.567 [main] INFO  ParamUtils - getRegdate
+10:00:17.567 [main] INFO  ParamUtils - getModdate
+10:00:17.567 [main] INFO  ParamUtils - setModdate
+10:00:17.567 [main] INFO  ParamUtils - setTitle
+10:00:17.567 [main] INFO  ParamUtils - setBno
+10:00:17.567 [main] INFO  ParamUtils - setContent
+10:00:17.567 [main] INFO  ParamUtils - getCno
+10:00:17.567 [main] INFO  ParamUtils - setRegdate
+10:00:17.567 [main] INFO  ParamUtils - getTitle
+10:00:17.567 [main] INFO  ParamUtils - getBno
+10:00:17.567 [main] INFO  ParamUtils - setCnt
+10:00:17.567 [main] INFO  ParamUtils - canEqual
+10:00:17.567 [main] INFO  ParamUtils - getAttachs
+10:00:17.567 [main] INFO  ParamUtils - setAttachs
+10:00:17.567 [main] INFO  ParamUtils - $default$attachs
+10:00:17.568 [main] INFO  ParamUtils - getReplyCnt
+10:00:17.568 [main] INFO  ParamUtils - getAttachCnt
+10:00:17.568 [main] INFO  ParamUtils - setReplyCnt
+10:00:17.568 [main] INFO  ParamUtils - setAttachCnt
+10:00:17.568 [main] INFO  ParamUtils - equals
+10:00:17.568 [main] INFO  ParamUtils - toString
+10:00:17.568 [main] INFO  ParamUtils - hashCode
+10:00:17.568 [main] INFO  ParamUtils - builder
+10:00:17.568 [main] INFO  ParamUtils - getId
+10:00:17.568 [main] INFO  ParamUtils - getContent
+10:00:17.568 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+10:00:17.579 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+10:00:17.580 [main] INFO  ParamUtils - setId
+10:00:17.580 [main] INFO  ParamUtils - getRegdate
+10:00:17.580 [main] INFO  ParamUtils - setBno
+10:00:17.580 [main] INFO  ParamUtils - setContent
+10:00:17.580 [main] INFO  ParamUtils - setRegdate
+10:00:17.580 [main] INFO  ParamUtils - getBno
+10:00:17.580 [main] INFO  ParamUtils - canEqual
+10:00:17.581 [main] INFO  ParamUtils - getRno
+10:00:17.581 [main] INFO  ParamUtils - setRno
+10:00:17.581 [main] INFO  ParamUtils - equals
+10:00:17.581 [main] INFO  ParamUtils - toString
+10:00:17.581 [main] INFO  ParamUtils - hashCode
+10:00:17.581 [main] INFO  ParamUtils - builder
+10:00:17.581 [main] INFO  ParamUtils - getId
+10:00:17.581 [main] INFO  ParamUtils - getContent
+10:00:17.581 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+10:00:17.584 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+10:01:43.354 [main] INFO  ParamUtils - equals
+10:01:43.356 [main] INFO  ParamUtils - toString
+10:01:43.356 [main] INFO  ParamUtils - hashCode
+10:01:43.356 [main] INFO  ParamUtils - builder
+10:01:43.356 [main] INFO  ParamUtils - getId
+10:01:43.356 [main] INFO  ParamUtils - getContent
+10:01:43.356 [main] INFO  ParamUtils - setBno
+10:01:43.357 [main] INFO  ParamUtils - getModdate
+10:01:43.357 [main] INFO  ParamUtils - setModdate
+10:01:43.357 [main] INFO  ParamUtils - setCnt
+10:01:43.357 [main] INFO  ParamUtils - setContent
+10:01:43.357 [main] INFO  ParamUtils - getBno
+10:01:43.357 [main] INFO  ParamUtils - setTitle
+10:01:43.357 [main] INFO  ParamUtils - getCno
+10:01:43.357 [main] INFO  ParamUtils - setAttachs
+10:01:43.357 [main] INFO  ParamUtils - setCno
+10:01:43.357 [main] INFO  ParamUtils - getTitle
+10:01:43.357 [main] INFO  ParamUtils - setId
+10:01:43.357 [main] INFO  ParamUtils - getAttachs
+10:01:43.357 [main] INFO  ParamUtils - canEqual
+10:01:43.357 [main] INFO  ParamUtils - getRegdate
+10:01:43.357 [main] INFO  ParamUtils - setRegdate
+10:01:43.358 [main] INFO  ParamUtils - getCnt
+10:01:43.358 [main] INFO  ParamUtils - setAttachCnt
+10:01:43.358 [main] INFO  ParamUtils - $default$attachs
+10:01:43.358 [main] INFO  ParamUtils - getAttachCnt
+10:01:43.358 [main] INFO  ParamUtils - getReplyCnt
+10:01:43.358 [main] INFO  ParamUtils - setReplyCnt
+10:01:43.358 [main] INFO  ParamUtils - Board(bno=100, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+10:01:43.371 [main] INFO  ParamUtils - Board(bno=100, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+10:01:43.372 [main] INFO  ParamUtils - equals
+10:01:43.373 [main] INFO  ParamUtils - toString
+10:01:43.373 [main] INFO  ParamUtils - hashCode
+10:01:43.373 [main] INFO  ParamUtils - builder
+10:01:43.373 [main] INFO  ParamUtils - getId
+10:01:43.373 [main] INFO  ParamUtils - getContent
+10:01:43.373 [main] INFO  ParamUtils - setBno
+10:01:43.373 [main] INFO  ParamUtils - setContent
+10:01:43.374 [main] INFO  ParamUtils - getBno
+10:01:43.374 [main] INFO  ParamUtils - setId
+10:01:43.374 [main] INFO  ParamUtils - canEqual
+10:01:43.374 [main] INFO  ParamUtils - getRegdate
+10:01:43.374 [main] INFO  ParamUtils - setRegdate
+10:01:43.374 [main] INFO  ParamUtils - getRno
+10:01:43.374 [main] INFO  ParamUtils - setRno
+10:01:43.374 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=100)
+10:01:43.377 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=100)
+10:04:52.613 [main] INFO  ParamUtils - class java.lang.Long bno
+10:04:52.616 [main] INFO  ParamUtils - class java.lang.String title
+10:04:52.616 [main] INFO  ParamUtils - class java.lang.String content
+10:04:52.616 [main] INFO  ParamUtils - class java.lang.String id
+10:04:52.616 [main] INFO  ParamUtils - class java.lang.String regdate
+10:04:52.616 [main] INFO  ParamUtils - class java.lang.String moddate
+10:04:52.616 [main] INFO  ParamUtils - class java.lang.Integer cnt
+10:04:52.616 [main] INFO  ParamUtils - class java.lang.Integer cno
+10:04:52.617 [main] INFO  ParamUtils - int replyCnt
+10:04:52.617 [main] INFO  ParamUtils - int attachCnt
+10:04:52.617 [main] INFO  ParamUtils - interface java.util.List attachs
+10:04:52.617 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+10:04:52.628 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+10:04:52.629 [main] INFO  ParamUtils - class java.lang.Long rno
+10:04:52.629 [main] INFO  ParamUtils - class java.lang.String content
+10:04:52.630 [main] INFO  ParamUtils - class java.lang.String id
+10:04:52.630 [main] INFO  ParamUtils - class java.lang.String regdate
+10:04:52.630 [main] INFO  ParamUtils - class java.lang.Long bno
+10:04:52.630 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+10:04:52.633 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+10:05:47.109 [main] INFO  ParamUtils - class java.lang.Long bno
+10:05:47.112 [main] INFO  ParamUtils - class java.lang.String title
+10:05:47.112 [main] INFO  ParamUtils - class java.lang.String content
+10:05:47.112 [main] INFO  ParamUtils - class java.lang.String id
+10:05:47.112 [main] INFO  ParamUtils - class java.lang.String regdate
+10:05:47.112 [main] INFO  ParamUtils - class java.lang.String moddate
+10:05:47.113 [main] INFO  ParamUtils - class java.lang.Integer cnt
+10:05:47.113 [main] INFO  ParamUtils - class java.lang.Integer cno
+10:05:47.113 [main] INFO  ParamUtils - int replyCnt
+10:05:47.113 [main] INFO  ParamUtils - int attachCnt
+10:05:47.113 [main] INFO  ParamUtils - interface java.util.List attachs
+10:05:47.113 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+10:05:47.122 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+10:06:51.935 [main] INFO  ParamUtils - class java.lang.Long bno
+10:06:51.938 [main] INFO  ParamUtils - null
+15:00:49.168 [main] INFO  sqltiming - select *, a.bno a_bno, (select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+		from tbl_board b
+		left join tbl_attach a using(bno)
+		where bno = 165
+		order by odr
+ {executed in 18 msec}
+15:00:49.197 [main] INFO  sqltiming - select coalesce(max(seq), 1) from tbl_board b
+		where grp = 165 
+		and seq >= 1 
+		and depth >= 1 
+		and not exists (
+			select 1
+			from tbl_board mid
+			where grp = b.grp
+			and seq >= 1 
+			and seq < b.seq 
+			and depth <= 1
+		)
+ {executed in 5 msec}
+15:00:49.199 [main] INFO  BoardMapperTest - Board(bno=165, title=무난한 글 작성, content=<p>무난한 내용 작성</p>
+, id=sae, regdate=2025-06-30 14:33:33, moddate=2025-06-30 14:33:33, cnt=2, cno=2, replyCnt=0, attachCnt=0, grp=165, seq=1, depth=1, attachs=[]) 1
